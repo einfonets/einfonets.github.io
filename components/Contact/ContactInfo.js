@@ -10,7 +10,7 @@ class ContactInfo extends Component {
                     <h2>
                         <span className="number">+088 130 629 8615</span>
                         <span className="or">OR</span>
-                        <span className="email">hello@hepro.com</span>
+                        <span className="email">hello@einfonets.com</span>
                     </h2>
 
                     <ul className="social">
