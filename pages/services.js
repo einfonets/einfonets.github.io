@@ -1,47 +1,38 @@
 import React, { Component } from 'react';
 import NavbarThree from '../components/Layouts/NavbarThree';
 import PageTitleArea from '../components/Common/PageTitleArea';
-import ServicesStyleOne from '../components/Services/ServicesStyleOne';
+import ServicesStyleTwo from '../components/Services/ServicesStyleTwo';
+import ClientsFeedbackSliderTwo from '../components/Common/ClientsFeedbackSliderTwo';
 import WhyChooseUs from '../components/Common/WhyChooseUs';
-import PricingStyleOne from '../components/Pricing/PricingStyleOne';
-import TeamStyleOne from '../components/Common/TeamStyleOne';
-import DownloadApp from '../components/Common/DownloadApp';
-import ClientsFeedbackSlider from '../components/Common/ClientsFeedbackSlider';
 import SubscribeStyleTwo from '../components/Common/SubscribeStyleTwo';
 import OurLovingClients from '../components/Common/OurLovingClients';
 import Footer from '../components/Layouts/Footer';
 
-class Services extends Component {
+class Services2 extends Component {
     render() {
         return (
             <>
                 <NavbarThree />
 
-                <PageTitleArea 
-                    pageTitle="Services" 
-                    pageDescription="Our Services" 
+                <PageTitleArea
+                    pageTitle="Services We Offer"
+                    pageDescription=""
                 />
 
-                <ServicesStyleOne />
+                <ServicesStyleTwo />
+
+                {/* <ClientsFeedbackSliderTwo /> */}
 
                 <WhyChooseUs />
-
-                <PricingStyleOne />
-
-                <TeamStyleOne />
-
-                <DownloadApp />
-
-                <ClientsFeedbackSlider />
 
                 <SubscribeStyleTwo />
 
                 <OurLovingClients />
-                
+
                 <Footer />
             </>
         );
     }
 }
 
-export default Services;
+export default Services2;

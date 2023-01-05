@@ -19,28 +19,24 @@ class WhyChooseUsTwo extends Component {
         return (
             <>
                 {/* Popup Modal Video If you want to change the video need to update below videoID */}
-                <ModalVideo
+                {/* <ModalVideo
                     channel='youtube'
                     isOpen={this.state.isOpen}
                     videoId='_ysd-zHamjk'
                     onClose={() => this.setState({ isOpen: false })}
-                />
+                /> */}
+
 
                 <section className="video-presentation-area ptb-100">
                     <div className="container">
                         <div className="section-title">
-                            <h2>Why choose us to watch this video know more</h2>
+                            <h2>Why choose us...</h2>
                         </div>
 
                         <div className="video-box">
-                            <img src="/images/video-bg.jpg" className="main-image" alt="image" />
+                            {/* <img src="/images/video-bg.jpg" className="main-image" alt="image" /> */}
+                            <img src="/images/Steps.gif" alt="image" className='main-image' />
 
-                            <div
-                                onClick={e => { e.preventDefault(); this.openModal() }}
-                                className="video-btn popup-youtube"
-                            >
-                                <i className="bx bx-play"></i>
-                            </div>
 
                             {/* Shape Images */}
                             <div className="shape1">
@@ -73,7 +69,6 @@ class WhyChooseUsTwo extends Component {
 
                             <Link href="/contact">
                                 <a className="default-btn">
-                                    <i className="bx bxs-edit-alt"></i>
                                     Contact Us
                                     <span></span>
                                 </a>

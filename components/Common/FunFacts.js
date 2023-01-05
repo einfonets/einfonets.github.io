@@ -11,10 +11,10 @@ class FunFacts extends Component {
                             <div className="single-funfacts funfact-style-two">
                                 <i className='bx bx-list-check'></i>
                                 <h3>
-                                    850
+                                    2
                                     <span className="sign-icon">+</span>
                                 </h3>
-                                <p>Completed Projects</p>
+                                <p>Years of Success</p>
                             </div>
                         </ScrollAnimation>
                     </div>
@@ -24,7 +24,7 @@ class FunFacts extends Component {
                             <div className="single-funfacts funfact-style-two">
                                 <i className='bx bx-smile'></i>
                                 <h3>
-                                    850
+                                    20
                                     <span className="sign-icon">+</span>
                                 </h3>
                                 <p>Happy Clients</p>
@@ -37,7 +37,7 @@ class FunFacts extends Component {
                             <div className="single-funfacts funfact-style-two">
                                 <i className='bx bx-grid-small'></i>
                                 <h3>
-                                    120
+                                    10
                                     <span className="sign-icon">+</span>
                                 </h3>
                                 <p>Ongoing Projects</p>
@@ -50,10 +50,10 @@ class FunFacts extends Component {
                             <div className="single-funfacts funfact-style-two">
                                 <i className='bx bxs-award'></i>
                                 <h3>
-                                    50
+                                    30
                                     <span className="sign-icon">+</span>
                                 </h3>
-                                <p>Winning Awards</p>
+                                <p>Completed Projects</p>
                             </div>
                         </ScrollAnimation>
                     </div>

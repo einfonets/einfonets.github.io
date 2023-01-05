@@ -18,7 +18,7 @@ class Features extends Component {
                                         <i className='bx bx-conversation'></i>
                                     </div>
                                     <h3>IT Consultancy</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>Working together across our ecosystem of technology partners, our accredited developers have immense knowledge in dealing with the newest web technologies to deliver bespoke industry solutions.</p>
 
                                     <div className="back-icon">
                                         <i className='bx bx-conversation'></i>
@@ -34,7 +34,8 @@ class Features extends Component {
                                         <i className='bx bxs-badge-check'></i>
                                     </div>
                                     <h3>IT Solutions</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>Combining the best tools for reliable day-to-day network management with a friendly team of help desk, field engineers, and technical project specialists, our managed IT services are world in class.
+                                    </p>
 
                                     <div className="back-icon">
                                         <i className='bx bxs-badge-check'></i>
@@ -50,7 +51,7 @@ class Features extends Component {
                                         <i className='bx bxs-dashboard'></i>
                                     </div>
                                     <h3>Simple Dashboard</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>Einfonets masters at creating a good dashboard design, with a stunning visual design, clear layout and intuitive way of presenting data/contents, which makes a website/app stand out and helps users take quick action or navigate more quickly.</p>
 
                                     <div className="back-icon">
                                         <i className='bx bxs-dashboard'></i>
@@ -66,7 +67,7 @@ class Features extends Component {
                                         <i className='bx bxs-bell-ring'></i>
                                     </div>
                                     <h3>Deadline Reminders</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>By adhering to deadlines, Einfonets can help ensure that projects are completed on time and that systems are kept up to date and running smoothly. and to communicate clearly with team members and stakeholders.</p>
 
                                     <div className="back-icon">
                                         <i className='bx bxs-bell-ring'></i>
@@ -82,7 +83,7 @@ class Features extends Component {
                                         <i className='bx bxs-info-circle'></i>
                                     </div>
                                     <h3>Information Retrieval</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>Einfonets Management empowers teams with adaptable practices, an open platform, and streamlined workflows that bring dev and ops together. Teams empowered to deliver value fast a unified view of work</p>
 
                                     <div className="back-icon">
                                         <i className='bx bxs-info-circle'></i>
@@ -98,7 +99,7 @@ class Features extends Component {
                                         <i className='bx bx-cog'></i>
                                     </div>
                                     <h3>Flexible Functionality</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>Our development methodologies, modular design principles, building in configurability, and using open standards provides with the ability to adapt and change in response to changing needs or circumstances.</p>
 
                                     <div className="back-icon">
                                         <i className='bx bx-cog'></i>

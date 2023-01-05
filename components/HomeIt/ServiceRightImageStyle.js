@@ -15,7 +15,7 @@ class ServiceRightImageStyle extends Component {
                                 </div>
 
                                 <h2>Web and Mobile Development</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <p>By collaborating with our team, you may create one-of-a-kind and fast-loading web development services. We produce robust, versatile mobile apps for a wide range of companies as one of the leading mobile application development service providers that are efficient, creative, and cost-effective.</p>
 
                                 <div className="row">
                                     <div className="col-sm-6">

@@ -17,7 +17,7 @@ class FeaturedService extends Component {
                                             <a>IT Consultancy</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
+                                    <p>Einfonets delivers sustainable, purpose-built application modernization that simplifies technology management and reduces costs. </p>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -31,7 +31,7 @@ class FeaturedService extends Component {
                                             <a>Web Development</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
+                                    <p>Utilizing a variety of front-end frameworks and libraries, like React.js, Angular.js, and Vue.js, our skilled team has created countless responsive web apps.</p>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -45,7 +45,8 @@ class FeaturedService extends Component {
                                             <a>IT Solutions</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
+                                    <p>We manage your IT, so you can manage your business
+                                        At Einfonets, we provide our clients with proactive IT support and responsive customer service.</p>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -59,7 +60,8 @@ class FeaturedService extends Component {
                                             <a>Digital Marketing</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
+                                    <p>Our aim is to reach every man. We enjoy working here since it's a modern organisation with a staff of interested and open-minded individuals.
+                                    </p>
                                 </div>
                             </ScrollAnimation>
                         </div>

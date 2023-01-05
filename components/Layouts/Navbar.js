@@ -70,7 +70,7 @@ class Navbar extends Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/services2" activeClassName="active">
+                                            <Link href="/services" activeClassName="active">
                                                 <a className="nav-link">Services</a>
                                             </Link>
                                         </li>

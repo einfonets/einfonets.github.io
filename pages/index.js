@@ -25,10 +25,10 @@ class Index extends Component {
                 <ServiceRightImageStyle />
                 <ServiceLeftImageStyle />
                 <FeaturesContent />
-                <ClientsFeedbackSlider />
+                {/* <ClientsFeedbackSlider /> */}
                 <WhyChooseUs />
-                <TeamStyleOne />
-                <OurLovingClients />
+                {/* <TeamStyleOne /> */}
+                {/* <OurLovingClients /> */}
                 {/* <FaqContent /> */}
                 {/* <SubscribeStyleOne /> */}
                 {/* <BlogPostStyleOne /> */}

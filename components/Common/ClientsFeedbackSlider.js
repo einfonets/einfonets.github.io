@@ -33,11 +33,11 @@ class ClientsFeedbackSlider extends Component {
 
     _isMounted = false;
     state = {
-        display:false
+        display: false
     }
-    componentDidMount(){ 
+    componentDidMount() {
         this._isMounted = true;
-        this.setState({ display: true }) 
+        this.setState({ display: true })
     }
     componentWillUnmount() {
         this._isMounted = false;
@@ -48,11 +48,11 @@ class ClientsFeedbackSlider extends Component {
             <section className="feedback-area ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Whats Our Clients Said About <span>Hepro</span></h2>
+                        <h2>Whats Our Clients Said About <span>Einfonets</span></h2>
                     </div>
 
-                    {this.state.display ? <OwlCarousel 
-                    className="feedback-slides owl-carousel owl-theme"
+                    {this.state.display ? <OwlCarousel
+                        className="feedback-slides owl-carousel owl-theme"
                         {...options}
                     >
                         <div className="single-feedback-item">

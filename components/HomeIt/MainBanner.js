@@ -14,7 +14,7 @@ class MainBanner extends Component {
                                         <div className="d-table-cell">
                                             <div className="content">
                                                 <h1>Secure IT Solutions for a more secure environment</h1>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                                <p>Strategy, ingenuity, empathy and agility are necessary for success in a cutthroat digital field. Einfonets fills the gap between your company's needs and it's capacity to fulfill those needs. The traditional definition of digital success is delivering effective solutions "on schedule" and "in budget".</p>
 
                                                 <Link href="/contact">
                                                     <a className="default-btn">

@@ -2660,6 +2660,7 @@ Video Presentation Area CSS
 
 .video-box .main-image {
   border-radius: 5px;
+  border: 10px solid #5ebbb6;
 }
 
 .video-box .video-btn {

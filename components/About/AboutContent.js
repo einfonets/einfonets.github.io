@@ -10,9 +10,9 @@ class AboutContent extends Component {
                             <div className="about-content">
                                 <span className="sub-title">How we are Founded</span>
                                 <h2>Take your business to the next level</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                <p>Every month they moved their money the old way – which wasted their time and money. So they invented a beautifully simple workaround that became a billion-dollar business.</p>
+                                <p>We are a Digital and IT based organization that provides a wide variety of services, from site creation to technology advice. Our staff is made up of seasoned professionals with in-depth knowledge of the subject and significant skill for the business. We make sure that our services are delivered on schedule and that we demonstrate outcomes with our deeds.</p>
+                                <p>In order to offer our wide variety of services, including web development, eCommerce solutions, DevOps, technological advice, digital marketing, and product engineering, among others, our team of professionals and experts merged their abilities, expertise, and experience.</p>
+                                <p>Technology is very essential to us because we are both an IT and a digital marketing business, so we keep up with both the times and the technology. In order to keep moving forward, we try to stay current with technological and innovative advances. We want to be able to give our consumers the finest.</p>
                             </div>
                         </div>
 

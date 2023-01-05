@@ -35,18 +35,18 @@ class Footer extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/features">
-                                            <a>Features</a>
+                                        <Link href="#">
+                                            <a>Portfolio</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/pricing">
-                                            <a>Our Pricing</a>
+                                        <Link href="#">
+                                            <a>Blog</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog">
-                                            <a>Latest News</a>
+                                        <Link href="#">
+                                            <a>Careers</a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -59,17 +59,17 @@ class Footer extends Component {
 
                                 <ul className="support-list">
                                     <li>
-                                        <Link href="/faq">
+                                        <Link href="#">
                                             <a>FAQ's</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/privacy-policy">
+                                        <Link href="#">
                                             <a>Privacy Policy</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/terms-conditions">
+                                        <Link href="#">
                                             <a>Terms & Conditions</a>
                                         </Link>
                                     </li>
@@ -93,8 +93,8 @@ class Footer extends Component {
 
                                 <ul className="footer-contact-info">
                                     <li>Location: <span>1108, Shilp Zaveri, Shyamal Cross Road, Ahmedabad, Gujarat 380015</span></li>
-                                    <li>Email: <span>hello@einfonets.com</span></li>
-                                    <li>Phone: <span>+0 (321) 984 754</span></li>
+                                    <li>Email: <span>einfonets@gmail.com</span></li>
+                                    <li>Phone: <span>+91 8320081188</span></li>
                                 </ul>
 
                                 <ul className="social">

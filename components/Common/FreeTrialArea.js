@@ -12,7 +12,6 @@ class FreeTrialArea extends Component {
 
                         <Link href="/contact">
                             <a className="default-btn">
-                                <i className="bx bxs-hot"></i> 
                                 Contact Us
                                 <span></span>
                             </a>

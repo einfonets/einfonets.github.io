@@ -23,7 +23,12 @@ class ServiceLeftImageStyle extends Component {
                                 </div>
 
                                 <h2>Cloud Hosting Services</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <p>Agility, Efficiency and Productivity Combined with Einfonets Cloud – DevOps Solutions
+
+                                    Harness the power of cloud and make your business more agile and productive with Einfonets cloud – DevOps solutions. With our industry-specific services and solutions, we allow your services to soar high and escalate the success-ladder at faster pace.
+
+
+                                </p>
 
                                 <div className="row">
                                     <div className="col-sm-6">

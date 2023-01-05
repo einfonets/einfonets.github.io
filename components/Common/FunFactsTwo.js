@@ -8,10 +8,10 @@ class FunFactsTwo extends Component {
                     <div className="col-lg-3 col-6 col-sm-6">
                         <div className="single-funfacts">
                             <h3>
-                                850
-                                <span className="sign-icon">k</span>
+                                2
+                                <span className="sign-icon">+</span>
                             </h3>
-                            <p>Downloaded</p>
+                            <p>Years of Success</p>
                         </div>
                     </div>
 
@@ -19,31 +19,22 @@ class FunFactsTwo extends Component {
                         <div className="single-funfacts">
                             <h3>
                                 20
-                                <span className="sign-icon">k</span>
+                                <span className="sign-icon">+</span>
                             </h3>
-                            <p>Feedback</p>
+                            <p>Happy Clients</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-6 col-sm-6">
                         <div className="single-funfacts">
                             <h3>
-                                500
+                                10
                                 <span className="sign-icon">+</span>
                             </h3>
-                            <p>Workers</p>
+                            <p>Ongoing Projects</p>
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-6 col-sm-6">
-                        <div className="single-funfacts">
-                            <h3>
-                                70
-                                <span className="sign-icon">+</span>
-                            </h3>
-                            <p>Contributors</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         );
