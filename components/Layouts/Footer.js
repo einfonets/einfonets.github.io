@@ -15,7 +15,7 @@ class Footer extends Component {
                                         <img src="/images/white-logo.svg" alt="image" />
                                     </a>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>Secure IT Solutions for a more secure environment. We are a Digital and IT based organization that provides a wide variety of services, from site creation to technology advice. Our staff is made up of seasoned professionals with in-depth knowledge of the subject and significant skill for the business. We make sure that our services are delivered on schedule and that we demonstrate outcomes with our deeds.</p>
                             </div>
                         </div>
 

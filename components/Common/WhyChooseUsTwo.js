@@ -63,7 +63,7 @@ class WhyChooseUsTwo extends Component {
                         <FunFactsTwo />
 
 
-                        <div className="contact-cta-box">
+                        {/* <div className="contact-cta-box">
                             <h3>Have any questions about us?</h3>
                             <p>Don't hesitate to contact us.</p>
 
@@ -73,7 +73,7 @@ class WhyChooseUsTwo extends Component {
                                     <span></span>
                                 </a>
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Shape Images */}
