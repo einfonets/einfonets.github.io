@@ -3,6 +3,7 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
+
 import baseUrl from "../../utils/baseUrl";
 
 const alertContent = () => {
@@ -21,8 +22,6 @@ const INITIAL_STATE = {
   name: "",
   email: "",
   number: "",
-  subject: "",
-  text: "",
 };
 
 const ContactForm = () => {
@@ -31,32 +30,34 @@ const ContactForm = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
-    // console.log(contact)
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = `${baseUrl}/api/contact`;
-      const { name, email, number, subject, text } = contact;
-      const payload = { name, email, number, subject, text };
+      const url = `${baseUrl}/api/storedata`;
+      const { name, email, number } = contact;
+      const payload = { name, email, number };
       const response = await axios.post(url, payload);
       console.log(response);
       setContact(INITIAL_STATE);
       alertContent();
+      window.open(
+        "https://docs.google.com/forms/d/1E7XevWhOT6ble7nnpXfNQ9FFRrlSoRJI9bs-sqkZYvI/viewform?edit_requested=true",
+        "_blank"
+      );
     } catch (error) {
       console.log(error);
     }
   };
 
   return (
-    <div className="contact-form">
-      <h3>Let's Start Your Free Trial</h3>
-
+    <div className="register-form">
       <form onSubmit={handleSubmit}>
         <div className="row">
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-12 col-md-12">
             <div className="form-group">
+              <span>Name</span>
               <input
                 type="text"
                 name="name"
@@ -68,8 +69,9 @@ const ContactForm = () => {
               />
             </div>
           </div>
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-12 col-md-12">
             <div className="form-group">
+              <span>Email address</span>
               <input
                 type="email"
                 name="email"
@@ -81,8 +83,9 @@ const ContactForm = () => {
               />
             </div>
           </div>
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-12 col-md-12">
             <div className="form-group">
+              <span>Phone number</span>
               <input
                 type="text"
                 name="number"
@@ -96,36 +99,9 @@ const ContactForm = () => {
               />
             </div>
           </div>
-          <div className="col-lg-6 col-md-6">
-            <div className="form-group">
-              <input
-                type="text"
-                name="subject"
-                placeholder="Your Subject"
-                className="form-control"
-                value={contact.subject}
-                onChange={handleChange}
-                required
-              />
-            </div>
-          </div>
-          <div className="col-lg-12 col-md-12">
-            <div className="form-group">
-              <textarea
-                name="text"
-                cols="30"
-                rows="6"
-                placeholder="Your Message"
-                className="form-control"
-                value={contact.text}
-                onChange={handleChange}
-                required
-              />
-            </div>
-          </div>
           <div className="col-lg-12 col-sm-12 text-center">
-            <button type="submit" className="default-btn">
-              Send Message <span></span>
+            <button type="submit" className="default-btn register-btn">
+              Register now <span></span>
             </button>
           </div>
         </div>

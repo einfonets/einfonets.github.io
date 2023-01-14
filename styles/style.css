@@ -3187,6 +3187,35 @@ Features Area CSS
   bottom: 0;
 }
 
+.course-box {
+  overflow: hidden;
+  border: 1px solid #2db0a8;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+  background: #f8ffff;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: 0.5s;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.course-box:hover {
+  background-color: #f8ffff;
+  border-radius: 12px;
+  border-color: #2db0a8;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+.course-box h3 {
+  margin-bottom: 0px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
 .features-box {
   overflow: hidden;
   border: 1px solid #f4f5fe;
@@ -4066,11 +4095,11 @@ Feedback Area CSS
   margin-bottom: 0;
 }
 
-.single-testimonials-item .testimonials-desc .rating {
+.rating {
   margin-top: 13px;
 }
 
-.single-testimonials-item .testimonials-desc .rating i {
+.rating i {
   font-size: 17px;
   display: inline-block;
   margin-right: -1px;
@@ -4753,7 +4782,7 @@ Blog Area CSS
 }
 
 .single-blog-post .post-content {
-  padding: 25px;
+  padding: 20px;
 }
 
 .single-blog-post .post-content h3 {
@@ -6899,6 +6928,37 @@ Contact Area CSS
   margin-bottom: 0;
 }
 
+.register-form {
+  background: #ffffff;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.register-form .form-group {
+  margin-bottom: 20px;
+}
+.register-form input {
+  margin-top: 10px;
+  background: #f2f5f8;
+  border-radius: 12px;
+}
+
+.register-form span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #1e1e1e;
+}
+.register-btn {
+  width: 100%;
+  color: #ffffff;
+  background: #208c88;
+  border-radius: 12px;
+}
+
 .contact-form h3 {
   margin-bottom: 25px;
   font-size: 24px;
@@ -8436,4 +8496,40 @@ Let's Talk Area CSS
 .lets-talk-btn {
   text-align: right;
 }
+/*================================================
+Internship registration css
+=================================================*/
+.register-internship-block {
+  position: relative;
+}
+
+.register-internship-block .bg-img {
+  position: absolute;
+}
+
+.card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.grn-card {
+  background: #e3f5f5;
+  border: 1px solid #208c88;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: #059669;
+}
+
+.avatar-skeleton {
+  height: 100px;
+  width: 100px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  margin: 0 auto;
+  color: #d9d9d9;
+}
+
 /*# sourceMappingURL=style.css.map */
