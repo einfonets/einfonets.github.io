@@ -9,7 +9,7 @@ module.exports = {
     return [
       {
         source: "/api/:path*",
-        destination: "https://www.einfonets.com/:path*",
+        destination: "https://www.einfonets.com/api/:path*",
       },
     ];
   },
