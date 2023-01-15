@@ -3210,9 +3210,9 @@ Features Area CSS
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
-.course-box h3 {
+.course-box h4 {
   margin-bottom: 0px;
-  font-size: 26px;
+  /* font-size: 26px; */
   font-weight: 600;
 }
 
@@ -8507,6 +8507,10 @@ Internship registration css
   position: absolute;
 }
 
+.contact-area {
+  position: relative;
+}
+
 .card-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -8521,6 +8525,15 @@ Internship registration css
   margin-right: 20px;
   margin-top: 10px;
   color: #059669;
+  cursor: pointer;
+}
+
+.avatar-img span {
+  height: 280px !important;
+}
+
+.grn-card:hover {
+  background-color: #f8ffff;
 }
 
 .avatar-skeleton {

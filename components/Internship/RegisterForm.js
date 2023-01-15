@@ -38,14 +38,13 @@ const ContactForm = () => {
       const url = `${baseUrl}/api/storedata`;
       const { name, email, number } = contact;
       const payload = { name, email, number };
-      const response = await axios.post(url, payload);
-      console.log(response);
-      setContact(INITIAL_STATE);
-      alertContent();
       window.open(
         "https://docs.google.com/forms/d/1E7XevWhOT6ble7nnpXfNQ9FFRrlSoRJI9bs-sqkZYvI/viewform?edit_requested=true",
         "_blank"
       );
+      const response = await axios.post(url, payload);
+      setContact(INITIAL_STATE);
+      alertContent();
     } catch (error) {
       console.log(error);
     }
@@ -61,7 +60,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="Your Name"
+                placeholder="Jasmin Bhatt"
                 className="form-control"
                 value={contact.name}
                 onChange={handleChange}
@@ -75,7 +74,7 @@ const ContactForm = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="Your Email"
+                placeholder="jasminbhatt23@gmail.com"
                 className="form-control"
                 value={contact.email}
                 onChange={handleChange}
@@ -89,7 +88,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="number"
-                placeholder="Phone number"
+                placeholder="989859444"
                 className="form-control"
                 value={contact.number}
                 onChange={handleChange}
@@ -101,7 +100,7 @@ const ContactForm = () => {
           </div>
           <div className="col-lg-12 col-sm-12 text-center">
             <button type="submit" className="default-btn register-btn">
-              Register now <span></span>
+              INQUIRY HERE <span></span>
             </button>
           </div>
         </div>

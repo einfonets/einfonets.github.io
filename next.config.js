@@ -1,4 +1,5 @@
 const path = require("path");
+const { default: baseUrl } = require("./utils/baseUrl");
 
 module.exports = {
   sassOptions: {
@@ -8,8 +9,8 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/api/:path*",
-        destination: "https://www.einfonets.com/api/:path*",
+        source: "/api/*",
+        destination: `${baseUrl}/api/*`,
       },
     ];
   },

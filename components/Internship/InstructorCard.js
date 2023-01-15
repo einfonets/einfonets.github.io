@@ -11,7 +11,9 @@ class InstructorCard extends Component {
           <div className="post-image">
             <a>
               {this.props.avatar ? (
-                <Image src={this.props.avatar} alt="image" height={835} />
+                <div className="avatar-img">
+                  <Image src={this.props.avatar} alt="image" />
+                </div>
               ) : (
                 <img src="/images/blog/blog1.jpg" alt="image" />
               )}

@@ -1,6 +1,6 @@
 const baseUrl =
   process.env.NODE_ENV === "production"
-    ? "https://www.einfonets.com"
+    ? "https://einfonets.com"
     : "http://localhost:3000";
 
 export default baseUrl;

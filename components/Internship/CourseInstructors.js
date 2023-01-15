@@ -4,6 +4,9 @@ import React, { Component } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import InstructorCard from "./InstructorCard";
 import janmey from "../../out/images/internship/janmey.jpeg";
+import dhruvil from "../../out/images/internship/dhruvil.jpg";
+import hemant from "../../out/images/internship/hemant.jpg";
+import palak from "../../out/images/internship/palak.jpg";
 
 class CourseInstructors extends Component {
   render() {
@@ -24,16 +27,19 @@ class CourseInstructors extends Component {
               />
               <InstructorCard
                 name={"Hemant Vaghela"}
+                avatar={hemant}
                 designation={"Visual / Graphic Designer "}
-                experience={"Ex- Byjus I Ex- INIT"}
+                experience={"TCS I Ex- Byjus"}
               />
               <InstructorCard
                 name={"Palak Sheth"}
+                avatar={palak}
                 designation={"UI/ UX Designer"}
                 experience={"TCS I Ex- Lollypop"}
               />
               <InstructorCard
                 name={"Dhruvil Shah"}
+                avatar={dhruvil}
                 designation={"Motion Graphic Designer"}
                 experience={"Walmart I Ex- Byjus"}
               />
