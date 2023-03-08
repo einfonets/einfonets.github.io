@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-
-Sitemap: https://www.einfonets.com/sitemap.xml
+Allow: /
+Sitemap: https://github.com/einfonets/einfonets.github.io/blob/ac192616705fd64b2da38c4a96bfab3d671493a9/pages/sitemap.xml
