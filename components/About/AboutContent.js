@@ -18,7 +18,7 @@ class AboutContent extends Component {
 
                         <div className="col-lg-6 col-md-12">
                             <div className="about-image">
-                                <img src="/images/about-img.jpg" alt="image" />
+                                <img src="/images/about-img.jpg" alt="Einfonets-about" />
                             </div>
                         </div>
                     </div>

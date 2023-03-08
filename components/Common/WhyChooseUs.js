@@ -30,7 +30,7 @@ class WhyChooseUs extends Component {
                 <section className="video-presentation-area ptb-100">
                     <div className="container">
                         <div className="section-title">
-                            <h2>Why choose us...</h2>
+                            <h2>Why choose einfonets...</h2>
                         </div>
 
                         {/* <div className="video-box">
