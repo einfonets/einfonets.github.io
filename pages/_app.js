@@ -51,11 +51,11 @@ export default class MyApp extends App {
             name="description"
             content="Secure IT Solutions for a more secure environment. We are a Digital and IT based organization that provides a wide variety of services, from site creation to technology advice. "
           />
-          <metas
+          <meta
             name="og:title"
             property="og:title"
             content="einfonets | Leading IT Solutions Provider"
-          ></metas>
+          ></meta>
           <meta
             name="twitter:card"
             content="einfonets | Leading IT Solutions Provider"
