@@ -35,7 +35,10 @@ export default class MyApp extends App {
     return (
       <>
         <Head>
-          <title>einfonets | Leading IT Solutions Provider</title>
+          <title>
+            Software Professional | Einfonets | Software Company | Leading IT
+            Solutions Provider
+          </title>
           {/* <title>Product Engineering Services | Digital Transformation Cloud Solutions</title> */}
           <meta
             name="viewport"
@@ -47,18 +50,24 @@ export default class MyApp extends App {
             content="A top software development company in Canada & India delivering web and mobile app solutions to global startups, businesses & enterprises."
           /> */}
 
-          <meta
+          {/* <meta
             name="description"
             content="Secure IT Solutions for a more secure environment. We are a Digital and IT based organization that provides a wide variety of services, from site creation to technology advice. "
+          /> */}
+
+          <meta
+            name="description"
+            content="Einfonets Works Creatively to Provide Software Solutions. Our Software Developers Are Here to Help You with the Right Software Solutions."
           />
+
           <meta
             name="og:title"
             property="og:title"
-            content="einfonets | Leading IT Solutions Provider"
+            content="Software Professional | Einfonets | Software Company | Leading IT Solutions Provider"
           ></meta>
           <meta
             name="twitter:card"
-            content="einfonets | Leading IT Solutions Provider"
+            content="Software Professional | Einfonets | Software Company | Leading IT Solutions Provider"
           ></meta>
           <link rel="canonical" href="http://www.einfonets.com/"></link>
         </Head>
