@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.einfonets.com
+
+# Sitemaps
+Sitemap: https://www.einfonets.com/sitemap.xml
