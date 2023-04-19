@@ -108,7 +108,7 @@ class Footer extends Component {
                     </span>
                   </li>
                   <li>
-                    Email: <span>einfonets@gmail.com</span>
+                    Email: <span>info@einfonets.com</span>
                   </li>
                   <li>
                     Phone: <span>+91 8320051094</span>
