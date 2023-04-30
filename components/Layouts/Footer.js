@@ -43,7 +43,7 @@ class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/portfolio">
                       <a>Portfolio</a>
                     </Link>
                   </li>
@@ -116,7 +116,7 @@ class Footer extends Component {
                 </ul>
 
                 <ul className="social">
-                  <li>
+                  {/* <li>
                     <a href="https://www.facebook.com/" target="_blank">
                       <i className="bx bxl-facebook"></i>
                     </a>
@@ -125,14 +125,20 @@ class Footer extends Component {
                     <a href="https://twitter.com/" target="_blank">
                       <i className="bx bxl-twitter"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/company/einfonets-technologies/"
+                      target="_blank"
+                    >
                       <i className="bx bxl-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a
+                      href="https://www.instagram.com/einfonets/"
+                      target="_blank"
+                    >
                       <i className="bx bxl-instagram"></i>
                     </a>
                   </li>
