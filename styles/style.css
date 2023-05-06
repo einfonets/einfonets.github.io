@@ -8100,6 +8100,10 @@ Featured Area CSS
   overflow: hidden;
 }
 
+.single-featured-box-pointer{
+  cursor: pointer;
+}
+
 .single-featured-box img {
   border-radius: 5px;
   -webkit-transition: 0.5s;
@@ -8546,5 +8550,3 @@ Internship registration css
 }
 
 /*# sourceMappingURL=style.css.map */
-
-

@@ -38,7 +38,7 @@ export default function Featured() {
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <ScrollAnimation animateIn="fadeInUp" delay={50} animateOnce={true}>
-              <div className="single-featured-box">
+              <div className="single-featured-box single-featured-box-pointer">
                 <img
                   src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/th20rkbpaqzqtvdgcyex"
                   alt="image"
@@ -48,7 +48,7 @@ export default function Featured() {
                   Development for Gophr
                 </h3>
 
-                <a className="read-more-btn" onClick={handleOpenType} href="#">
+                <a className="read-more-btn" onClick={handleOpenType}>
                   Read More <i className="bx bx-right-arrow-alt"></i>
                 </a>
 
@@ -101,7 +101,7 @@ export default function Featured() {
                   </DialogContent>
                 </Dialog>
 
-                <a onClick={handleOpenType} href="#">
+                <a onClick={handleOpenType}>
                   <a className="link-btn"></a>
                 </a>
               </div>
@@ -140,18 +140,14 @@ export default function Featured() {
               delay={150}
               animateOnce={true}
             >
-              <div className="single-featured-box">
+              <div className="single-featured-box single-featured-box-pointer">
                 <img
                   src="https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/301146028_446738460836455_6026895188623288077_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=385h1FjW06YAX_M6i0-&_nc_ht=scontent.famd4-1.fna&oh=00_AfDaW9FG7SwUJ5frtu3gJyonpFx-3EmS7ru8NnjO-dJtag&oe=645A3D0D"
                   alt="image"
                 />
                 <h3>Helping Safmical Build a Robust E-commerce Platform</h3>
 
-                <a
-                  className="read-more-btn"
-                  onClick={handleOpenSafmical}
-                  href="#"
-                >
+                <a className="read-more-btn" onClick={handleOpenSafmical}>
                   Read More <i className="bx bx-right-arrow-alt"></i>
                 </a>
 
@@ -205,7 +201,7 @@ export default function Featured() {
                   </DialogContent>
                 </Dialog>
 
-                <a onClick={handleOpenSafmical} href="#">
+                <a onClick={handleOpenSafmical}>
                   <a className="link-btn"></a>
                 </a>
               </div>
@@ -244,15 +240,11 @@ export default function Featured() {
               delay={150}
               animateOnce={true}
             >
-              <div className="single-featured-box">
+              <div className="single-featured-box single-featured-box-pointer">
                 <img src="/images/marketing-agency/infonet.jpg" alt="image" />
                 <h3>Empowering Infonet with Top-tier Development Resources</h3>
 
-                <a
-                  className="read-more-btn"
-                  onClick={handleOpenInfonet}
-                  href="#"
-                >
+                <a className="read-more-btn" onClick={handleOpenInfonet}>
                   Read More <i className="bx bx-right-arrow-alt"></i>
                 </a>
 
@@ -309,7 +301,7 @@ export default function Featured() {
                   </DialogContent>
                 </Dialog>
 
-                <a onClick={handleOpenInfonet} href="#">
+                <a onClick={handleOpenInfonet}>
                   <a className="link-btn"></a>
                 </a>
               </div>
@@ -351,18 +343,14 @@ export default function Featured() {
               delay={150}
               animateOnce={true}
             >
-              <div className="single-featured-box">
+              <div className="single-featured-box single-featured-box-pointer">
                 <img
                   src="https://socialslothmarketing.com/wp-content/uploads/2021/10/cropped-Social-Sloth-Marketing-2-1.png"
                   alt="image"
                 />
                 <h3>Elevating Online Presence for Social Sloths</h3>
 
-                <a
-                  className="read-more-btn"
-                  onClick={handleOpenSocial}
-                  href="#"
-                >
+                <a className="read-more-btn" onClick={handleOpenSocial}>
                   Read More <i className="bx bx-right-arrow-alt"></i>
                 </a>
 
@@ -418,7 +406,7 @@ export default function Featured() {
                   </DialogContent>
                 </Dialog>
 
-                <a onClick={handleOpenSocial} href="#">
+                <a onClick={handleOpenSocial}>
                   <a className="link-btn"></a>
                 </a>
               </div>
@@ -431,11 +419,11 @@ export default function Featured() {
               delay={150}
               animateOnce={true}
             >
-              <div className="single-featured-box">
+              <div className="single-featured-box single-featured-box-pointer">
                 <img src="/images/marketing-agency/Project.png" alt="image" />
                 <h3>Bringing Rentech's idea to reality.</h3>
 
-                <a className="read-more-btn" onClick={handleOpenRTech} href="#">
+                <a className="read-more-btn" onClick={handleOpenRTech}>
                   Read More <i className="bx bx-right-arrow-alt"></i>
                 </a>
 
@@ -487,7 +475,7 @@ export default function Featured() {
                   </DialogContent>
                 </Dialog>
 
-                <a onClick={handleOpenRTech} href="#">
+                <a onClick={handleOpenRTech}>
                   <a className="link-btn"></a>
                 </a>
               </div>
