@@ -31,6 +31,7 @@ class PortfolioContent extends Component {
             </div>
           </div>
         </div>
+        <h1 style={{ textAlign: "center" }}>Our Partners and Clients</h1>
         <Featured />
       </section>
     );
