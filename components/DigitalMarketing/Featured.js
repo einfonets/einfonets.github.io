@@ -12,9 +12,25 @@ import {
 import { Close } from "@material-ui/icons";
 export default function Featured() {
   const [openGophr, setGophr] = useState(false);
+  const [openSafmical, setSafmical] = useState(false);
+  const [openInfonet, setInfonet] = useState(false);
+  const [openSocial, setSocial] = useState(false);
+  const [openRTech, setRTech] = useState(false);
 
   const handleOpenType = () => setGophr(true);
   const handleCloseType = () => setGophr(false);
+
+  const handleOpenSafmical = () => setSafmical(true);
+  const handleCloseSafmical = () => setSafmical(false);
+
+  const handleOpenInfonet = () => setInfonet(true);
+  const handleCloseInfonet = () => setInfonet(false);
+
+  const handleOpenSocial = () => setSocial(true);
+  const handleCloseSocial = () => setSocial(false);
+
+  const handleOpenRTech = () => setRTech(true);
+  const handleCloseRtech = () => setRTech(false);
 
   return (
     <div className="featured-area pt-100 pb-70">
@@ -131,15 +147,67 @@ export default function Featured() {
                 />
                 <h3>Helping Safmical Build a Robust E-commerce Platform</h3>
 
-                <Link href="/service-details">
-                  <a className="read-more-btn">
-                    Read More <i className="bx bx-right-arrow-alt"></i>
-                  </a>
-                </Link>
+                <a
+                  className="read-more-btn"
+                  onClick={handleOpenSafmical}
+                  href="#"
+                >
+                  Read More <i className="bx bx-right-arrow-alt"></i>
+                </a>
 
-                <Link href="/service-details">
+                <Dialog open={openSafmical} onClose={handleCloseSafmical}>
+                  <DialogTitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <span style={{ color: "teal" }}>Project Safmical</span>
+                      <IconButton
+                        aria-label="close"
+                        onClick={handleCloseSafmical}
+                      >
+                        <Close />
+                      </IconButton>
+                    </div>
+                  </DialogTitle>
+
+                  <DialogContent>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "20px",
+                      }}
+                    >
+                      <img
+                        style={{ border: "1px solid orange" }}
+                        src="https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/301146028_446738460836455_6026895188623288077_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=385h1FjW06YAX_M6i0-&_nc_ht=scontent.famd4-1.fna&oh=00_AfDaW9FG7SwUJ5frtu3gJyonpFx-3EmS7ru8NnjO-dJtag&oe=645A3D0D"
+                        alt="image"
+                      />
+                      <p style={{ textAlign: "justify", color: "grey" }}>
+                        Safmical, a leading retailer, approached einfonets with
+                        a vision to take their online retail business to new
+                        heights. Our team collaborated closely with Safmical to
+                        understand their business requirements and design a
+                        customized e-commerce platform to meet their needs.
+                        <br />
+                        <br />
+                        We are proud to have partnered with Safmical to deliver
+                        a customized e-commerce solution that revolutionized
+                        their online retail business. Our collaboration has
+                        helped Safmical achieve its business objectives and
+                        position itself as a leader in the online retail space.
+                      </p>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+
+                <a onClick={handleOpenSafmical} href="#">
                   <a className="link-btn"></a>
-                </Link>
+                </a>
               </div>
             </ScrollAnimation>
           </div>
@@ -180,15 +248,70 @@ export default function Featured() {
                 <img src="/images/marketing-agency/infonet.jpg" alt="image" />
                 <h3>Empowering Infonet with Top-tier Development Resources</h3>
 
-                <Link href="/service-details">
-                  <a className="read-more-btn">
-                    Read More <i className="bx bx-right-arrow-alt"></i>
-                  </a>
-                </Link>
+                <a
+                  className="read-more-btn"
+                  onClick={handleOpenInfonet}
+                  href="#"
+                >
+                  Read More <i className="bx bx-right-arrow-alt"></i>
+                </a>
 
-                <Link href="/service-details">
+                <Dialog open={openInfonet} onClose={handleCloseInfonet}>
+                  <DialogTitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <span style={{ color: "teal" }}>Partner INFONET</span>
+                      <IconButton
+                        aria-label="close"
+                        onClick={handleCloseInfonet}
+                      >
+                        <Close />
+                      </IconButton>
+                    </div>
+                  </DialogTitle>
+
+                  <DialogContent>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "20px",
+                      }}
+                    >
+                      <img
+                        style={{ border: "1px solid orange", padding: "20px" }}
+                        src="/images/marketing-agency/infonet.jpg"
+                        alt="image"
+                      />
+                      <p style={{ textAlign: "justify", color: "grey" }}>
+                        einfonets is proud to partner with Infonet, a leading
+                        technology solutions provider, to deliver exceptional
+                        development services that meet their unique business
+                        needs. Our partnership allows Infonet to access
+                        highly-skilled developers who can provide customized
+                        solutions to meet their project requirements.
+                        <br />
+                        <br />
+                        Our flexible engagement models allow Infonet to access
+                        development resources on-demand, ensuring that they have
+                        the resources they need to deliver projects on-time and
+                        within budget. Whether it's a dedicated team or staff
+                        augmentation services, our resources can seamlessly
+                        integrate with Infonet's existing teams to deliver
+                        exceptional results.
+                      </p>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+
+                <a onClick={handleOpenInfonet} href="#">
                   <a className="link-btn"></a>
-                </Link>
+                </a>
               </div>
             </ScrollAnimation>
           </div>
@@ -235,15 +358,69 @@ export default function Featured() {
                 />
                 <h3>Elevating Online Presence for Social Sloths</h3>
 
-                <Link href="/service-details">
-                  <a className="read-more-btn">
-                    Read More <i className="bx bx-right-arrow-alt"></i>
-                  </a>
-                </Link>
+                <a
+                  className="read-more-btn"
+                  onClick={handleOpenSocial}
+                  href="#"
+                >
+                  Read More <i className="bx bx-right-arrow-alt"></i>
+                </a>
 
-                <Link href="/service-details">
+                <Dialog open={openSocial} onClose={handleCloseSocial}>
+                  <DialogTitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <span style={{ color: "teal" }}>
+                        Project Social Sloths
+                      </span>
+                      <IconButton
+                        aria-label="close"
+                        onClick={handleCloseSocial}
+                      >
+                        <Close />
+                      </IconButton>
+                    </div>
+                  </DialogTitle>
+
+                  <DialogContent>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "20px",
+                      }}
+                    >
+                      <img
+                        style={{ border: "1px solid orange", padding: "20px" }}
+                        src="https://socialslothmarketing.com/wp-content/uploads/2021/10/cropped-Social-Sloth-Marketing-2-1.png"
+                        alt="image"
+                      />
+                      <p style={{ textAlign: "justify", color: "grey" }}>
+                        einfonets is proud to have collaborated with Social
+                        Sloths in developing their website and elevating their
+                        online presence. Our team of expert developers worked
+                        closely with Social Sloths to create a website that is
+                        visually appealing, user-friendly, and optimized for
+                        search engines.
+                        <br />
+                        <br />
+                        Our services for Social Sloths encompassed everything
+                        from design to development and testing. We ensured that
+                        the website meets the latest industry standards and
+                        adheres to best practices in web development.
+                      </p>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+
+                <a onClick={handleOpenSocial} href="#">
                   <a className="link-btn"></a>
-                </Link>
+                </a>
               </div>
             </ScrollAnimation>
           </div>
@@ -258,15 +435,61 @@ export default function Featured() {
                 <img src="/images/marketing-agency/Project.png" alt="image" />
                 <h3>Bringing Rentech's idea to reality.</h3>
 
-                <Link href="/service-details">
-                  <a className="read-more-btn">
-                    Read More <i className="bx bx-right-arrow-alt"></i>
-                  </a>
-                </Link>
+                <a className="read-more-btn" onClick={handleOpenRTech} href="#">
+                  Read More <i className="bx bx-right-arrow-alt"></i>
+                </a>
 
-                <Link href="/service-details">
+                <Dialog open={openRTech} onClose={handleCloseRtech}>
+                  <DialogTitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <span style={{ color: "teal" }}>Partner Ren Tech</span>
+                      <IconButton aria-label="close" onClick={handleCloseRtech}>
+                        <Close />
+                      </IconButton>
+                    </div>
+                  </DialogTitle>
+
+                  <DialogContent>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "20px",
+                      }}
+                    >
+                      <img
+                        style={{ border: "1px solid orange" }}
+                        src="/images/marketing-agency/Project.png"
+                        alt="image"
+                      />
+                      <p style={{ textAlign: "justify", color: "grey" }}>
+                        At Rentech, we're proud to provide innovative web and
+                        mobile development solutions, as well as cutting-edge
+                        data visualization expertise to revolutionize the future
+                        of energy. Our team has worked closely with Rentech to
+                        design and develop dynamic, user-friendly applications
+                        that streamline workflows, optimize processes, and drive
+                        business growth.
+                        <br />
+                        <br />
+                        Whether they need a fully customized mobile app, a
+                        powerful web platform, or advanced data visualization
+                        tools, we help them achieve their goals and drive their
+                        business forward.
+                      </p>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+
+                <a onClick={handleOpenRTech} href="#">
                   <a className="link-btn"></a>
-                </Link>
+                </a>
               </div>
             </ScrollAnimation>
           </div>
