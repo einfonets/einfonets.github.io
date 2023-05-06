@@ -194,6 +194,29 @@ export default class Featured extends Component {
                 </div>
               </ScrollAnimation>
             </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <ScrollAnimation
+                animateIn="fadeInUp"
+                delay={150}
+                animateOnce={true}
+              >
+                <div className="single-featured-box">
+                  <img src="/images/marketing-agency/Project.png" alt="image" />
+                  <h3>Bringing Rentech's idea to reality.</h3>
+
+                  <Link href="/service-details">
+                    <a className="read-more-btn">
+                      Read More <i className="bx bx-right-arrow-alt"></i>
+                    </a>
+                  </Link>
+
+                  <Link href="/service-details">
+                    <a className="link-btn"></a>
+                  </Link>
+                </div>
+              </ScrollAnimation>
+            </div>
           </div>
         </div>
       </div>
