@@ -11,6 +11,7 @@ import FreeTrialArea from "../components/Common/FreeTrialArea";
 import Footer from "../components/Layouts/Footer";
 import OurLovingClients from "../components/Common/OurLovingClients";
 import ScrollAnimation from "react-animate-on-scroll";
+import ClientsFeedbackThree from "../components/Common/ClientsFeedbackThree";
 class About extends Component {
   render() {
     return (
@@ -125,6 +126,7 @@ class About extends Component {
         {/* <Partner /> */}
         <OurLovingClients />
         <WhyChooseUsTwo />
+        <ClientsFeedbackThree />
         {/* <TeamMember /> */}
         {/* <DownloadApp /> */}
         {/* <ClientsFeedbackSlider /> */}
