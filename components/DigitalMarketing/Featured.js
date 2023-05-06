@@ -37,7 +37,7 @@ export default class Featured extends Component {
               </ScrollAnimation>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            {/* <div className="col-lg-4 col-md-6 col-sm-6">
               <ScrollAnimation
                 animateIn="fadeInUp"
                 delay={100}
@@ -61,7 +61,7 @@ export default class Featured extends Component {
                   </Link>
                 </div>
               </ScrollAnimation>
-            </div>
+            </div> */}
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <ScrollAnimation
@@ -89,7 +89,7 @@ export default class Featured extends Component {
               </ScrollAnimation>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            {/* <div className="col-lg-4 col-md-6 col-sm-6">
               <ScrollAnimation
                 animateIn="fadeInUp"
                 delay={150}
@@ -113,7 +113,7 @@ export default class Featured extends Component {
                   </Link>
                 </div>
               </ScrollAnimation>
-            </div>
+            </div> */}
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <ScrollAnimation
@@ -140,7 +140,7 @@ export default class Featured extends Component {
               </ScrollAnimation>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            {/* <div className="col-lg-4 col-md-6 col-sm-6">
               <ScrollAnimation
                 animateIn="fadeInUp"
                 delay={150}
@@ -167,7 +167,7 @@ export default class Featured extends Component {
                   </Link>
                 </div>
               </ScrollAnimation>
-            </div>
+            </div> */}
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <ScrollAnimation
