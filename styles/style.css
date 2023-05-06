@@ -4698,7 +4698,7 @@ Our Loving Clients Area CSS
 .single-clients-logo a {
   text-align: center;
   display: block;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   padding: 30px 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;

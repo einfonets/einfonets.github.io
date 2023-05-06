@@ -28,7 +28,7 @@ class Index extends Component {
                 {/* <ClientsFeedbackSlider /> */}
                 <WhyChooseUs />
                 {/* <TeamStyleOne /> */}
-                {/* <OurLovingClients /> */}
+                <OurLovingClients />
                 {/* <FaqContent /> */}
                 {/* <SubscribeStyleOne /> */}
                 {/* <BlogPostStyleOne /> */}
