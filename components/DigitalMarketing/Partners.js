@@ -10,7 +10,7 @@ export default class Partners extends Component {
                             <div className="single-partner-box">
                                 <img src="/images/partner/partner5.png" alt="image" />
                             </div>
-                        </div>
+                        </div> 
 
                         <div className="col-lg-2 col-6 col-sm-3 col-md-4">
                             <div className="single-partner-box">

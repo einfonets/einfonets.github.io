@@ -142,7 +142,7 @@ export default function Featured() {
             >
               <div className="single-featured-box single-featured-box-pointer">
                 <img
-                  src="https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/301146028_446738460836455_6026895188623288077_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=385h1FjW06YAX_M6i0-&_nc_ht=scontent.famd4-1.fna&oh=00_AfDaW9FG7SwUJ5frtu3gJyonpFx-3EmS7ru8NnjO-dJtag&oe=645A3D0D"
+                  src="https://scontent.famd5-1.fna.fbcdn.net/v/t39.30808-6/301146028_446738460836455_6026895188623288077_n.jpg?_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=e3f864&_nc_ohc=-ufLNRpO6CUAX-tA2Zh&_nc_ht=scontent.famd5-1.fna&oh=00_AfChdxu1REzrlpFtej56_-csSOhvXq0lO3Ty6GKlQ0pElQ&oe=64B1400D"
                   alt="image"
                 />
                 <h3>Helping Safmical Build a Robust E-commerce Platform</h3>
@@ -180,7 +180,7 @@ export default function Featured() {
                     >
                       <img
                         style={{ border: "1px solid orange" }}
-                        src="https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/301146028_446738460836455_6026895188623288077_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=385h1FjW06YAX_M6i0-&_nc_ht=scontent.famd4-1.fna&oh=00_AfDaW9FG7SwUJ5frtu3gJyonpFx-3EmS7ru8NnjO-dJtag&oe=645A3D0D"
+                        src="https://scontent.famd5-1.fna.fbcdn.net/v/t39.30808-6/301146028_446738460836455_6026895188623288077_n.jpg?_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=e3f864&_nc_ohc=-ufLNRpO6CUAX-tA2Zh&_nc_ht=scontent.famd5-1.fna&oh=00_AfChdxu1REzrlpFtej56_-csSOhvXq0lO3Ty6GKlQ0pElQ&oe=64B1400D"
                         alt="image"
                       />
                       <p style={{ textAlign: "justify", color: "grey" }}>
