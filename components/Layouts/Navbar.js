@@ -85,17 +85,14 @@ class Navbar extends Component {
                     </li>
 
                     <li className="nav-item">
-                      <Link href="#">
-                        <a
-                          className="nav-link"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Blog
+                      <Link href="/blog" activeClassName="active">
+                        <a className="nav-link">
+                          Blogs
                           {/* Blog <i className='bx bx-chevron-down'></i> */}
                         </a>
                       </Link>
-
-                      {/* <ul className="dropdown-menu">
+                    </li>
+                    {/* <ul className="dropdown-menu">
                                                 <li className="nav-item">
                                                     <Link href="/blog" activeClassName="active">
                                                         <a className="nav-link">Blog Grid</a>
@@ -114,7 +111,6 @@ class Navbar extends Component {
                                                     </Link>
                                                 </li>
                                             </ul> */}
-                    </li>
 
                     <li className="nav-item">
                       <Link href="#" activeClassName="active">

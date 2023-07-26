@@ -32,8 +32,9 @@ class Index extends Component {
         {/* <TeamStyleOne /> */}
         <OurLovingClients />
         {/* <FaqContent /> */}
-        {/* <SubscribeStyleOne /> */}
-        {/* <BlogPostStyleOne /> */}
+        <SubscribeStyleOne />
+        <BlogPostStyleOne />
+
         <Footer />
       </>
     );

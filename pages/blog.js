@@ -12,7 +12,7 @@ class Blog extends Component {
                 <NavbarThree />
 
                 <PageTitleArea 
-                    pageTitle="Blog" 
+                    pageTitle="Blogs" 
                     pageDescription="News and Insights" 
                 />
 

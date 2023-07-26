@@ -48,8 +48,8 @@ class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>Blog</a>
+                    <Link href="/blog">
+                      <a>Blogs</a>
                     </Link>
                   </li>
                   <li>
