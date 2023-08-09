@@ -7,6 +7,9 @@ import {
   Button,
   Checkbox,
   IconButton,
+  List,
+  ListItem,
+  ListItemButton,
   Radio,
   Stack,
   Typography,
@@ -132,12 +135,123 @@ const BlogDetailsContent = () => {
                     </li>
                   </ul>
                 </div>
-
+                {/* <List>
+                        <ListItem>
+                          <ListItemButton sx={{ borderRadius: "50px" }}>
+                            <a href="#section-1">Standard Image Loading</a>
+                          </ListItemButton>
+                        </ListItem>
+                        <ListItem>
+                          <ListItemButton sx={{ borderRadius: "50px" }}>
+                            <a href="#section-2">Basic Image Loading</a>
+                          </ListItemButton>
+                        </ListItem>
+                        <ListItem>
+                          <ListItemButton sx={{ borderRadius: "50px" }}>
+                            <a href="#section-3">Independent Image Loaders</a>
+                          </ListItemButton>
+                        </ListItem>
+                        <ListItem>
+                          <ListItemButton sx={{ borderRadius: "50px" }}>
+                            <a href="#section-4">Different Image Loaders</a>
+                          </ListItemButton>
+                        </ListItem>
+                      </List> */}
+                {/* Blog Body */}
                 <div
                   dangerouslySetInnerHTML={{
                     __html: blogDetails?.blog_details?.page_content,
                   }}
                 />
+
+                {/* <pre>
+                  <code>
+                    return{" "}
+                    <>
+                      <img src="" alt="image_with_loader" id="loading-image" />
+                    </>
+                  </code>
+                </pre> */}
+                {/* <ul class="block-gallery columns-3">
+                  <li class="blocks-gallery-item">
+                    <figure>
+                      <img src="/images/blog/gallery1.jpg" alt="image" />
+                    </figure>
+                  </li>
+
+                  <li class="blocks-gallery-item">
+                    <figure>
+                      <img src="/images/blog/gallery2.jpg" alt="image" />
+                    </figure>
+                  </li>
+
+                  <li class="blocks-gallery-item">
+                    <figure>
+                      <img src="/images/blog/gallery3.jpg" alt="image" />
+                    </figure>
+                  </li>
+                </ul>
+                <h3 class="mb-0">Four major elements that we offer:</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul class="features-list">
+                      <li>
+                        <i class="bx bx-check-double"></i>
+                        Scientific Skills For getting a better result
+                      </li>
+                      <li>
+                        <i class="bx bx-check-double"></i>
+                        Communication Skills to getting in touch
+                      </li>
+                      <li>
+                        <i class="bx bx-check-double"></i>A Career Overview
+                        opportunity Available
+                      </li>
+                      <li>
+                        <i class="bx bx-check-double"></i>A good Work
+                        Environment For work
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col-md-6">
+                    <ul class="features-list">
+                      <li>
+                        <i class="bx bx-check-double"></i>
+                        Scientific Skills For getting a better result
+                      </li>
+                      <li>
+                        <i class="bx bx-check-double"></i>
+                        Communication Skills to getting in touch
+                      </li>
+                      <li>
+                        <i class="bx bx-check-double"></i>A Career Overview
+                        opportunity Available
+                      </li>
+                      <li>
+                        <i class="bx bx-check-double"></i>A good Work
+                        Environment For work
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores et quas molestias excepturi sint occaecati cupiditate
+                  non provident, similique sunt in culpa qui officia deserunt
+                  mollitia animi, id est laborum et dolorum fuga. Et harum
+                  quidem rerum facilis est et expedita distinctio. Nam libero
+                  tempore, cum soluta nobis est eligendi optio cumque nihil
+                  impedit quo minus id quod maxime placeat facere possimus,
+                  omnis voluptas assumenda est, omnis dolor repellendus.
+                  Temporibus autem quibusdam et aut officiis debitis aut rerum
+                  necessitatibus saepe eveniet ut et voluptates repudiandae sint
+                  et molestiae non recusandae. Itaque earum rerum hic tenetur a
+                  sapiente delectus, ut aut reiciendis voluptatibus maiores
+                  alias consequatur aut perferendis doloribus.
+                </p>{" "} */}
+                {/* Blog Body */}
               </div>
               {/* Article footer */}
               <div className="article-footer">
