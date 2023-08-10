@@ -35,8 +35,7 @@ const BlogDetailsContent = () => {
   const blogDetails = blogs.find((blog) => blog.id === blogId);
   const blogurl = `https://einfonets.com/blog-details/${blogId}/`;
   const [feedback, setFeedback] = useState("");
-  const [blogvisits, setBlogVisits] = useState(0);
-  const [blogContent, setBlogContent] = useState("");
+  const [blogContent, setContent] = useState({});
   const handleFeedbackChange = (event) => {
     setFeedback(event.target.value);
   };
@@ -60,21 +59,25 @@ const BlogDetailsContent = () => {
         blogCountRef.set({
           visits: 1,
           content: blogDetails?.blog_details?.page_content,
+          title_img: blogDetails?.blog_details?.title_img,
+          written_on: blogDetails?.written_on,
+          written_by: blogDetails?.written_by,
+          hashtags: blogDetails?.blog_details?.hashtags,
         });
       }
     } catch (error) {
       console.error("Error updating visitor count:", error);
     }
   };
-
+  console.log("Blog Id", blogId);
+  console.log("Blog Details", blogContent);
   useEffect(() => {
     if (blogId !== undefined) {
       incrementVisitorCounter();
       const setBlogDetails = async () => {
         if (blogId !== undefined) {
           const details = await fetchBlogDetails();
-          setBlogVisits(details.visits);
-          setBlogContent(details.content);
+          setContent(details);
         }
       };
 
@@ -90,9 +93,23 @@ const BlogDetailsContent = () => {
       const doc = await blogCountRef.get();
 
       if (doc.exists) {
-        return { visits: doc.data().visits + 1, content: doc.data().content }; // Return the visitor count if the document exists
+        return {
+          visits: doc.data().visits + 1,
+          content: doc.data().content,
+          title_img: doc.data().title_img,
+          written_on: doc.data().written_on,
+          written_by: doc.data().written_by,
+          hashtags: doc.data().hashtags,
+        }; // Return the visitor count if the document exists
       } else {
-        return { visits: 1, content: blogDetails?.blog_details?.page_content }; // Return 0 if the document doesn't exist (no visitors yet)
+        return {
+          visits: 1,
+          content: blogDetails?.blog_details?.page_content,
+          title_img: blogDetails?.blog_details?.title_img,
+          written_on: blogDetails?.written_on,
+          written_by: blogDetails?.written_by,
+          hashtags: blogDetails?.blog_details?.hashtags,
+        }; // Return 0 if the document doesn't exist (no visitors yet)
       }
     } catch (error) {
       console.error("Error fetching visitor count:", error);
@@ -106,7 +123,7 @@ const BlogDetailsContent = () => {
           <div className="col-lg-8 col-md-12">
             <div className="blog-details-desc">
               <div className="article-image">
-                <img src={blogDetails?.blog_details?.title_img} alt="image" />
+                <img src={blogContent?.title_img} alt="image" />
               </div>
               <div className="article-content">
                 <div className="entry-meta">
@@ -114,13 +131,13 @@ const BlogDetailsContent = () => {
                     <li>
                       <i className="bx bx-time"></i>
                       <Link href="#">
-                        <a>{blogDetails?.written_on}</a>
+                        <a>{blogContent?.written_on}</a>
                       </Link>
                     </li>
                     <li>
                       <i className="bx bx-user"></i>
                       <Link href="/blog">
-                        <a>{blogDetails?.written_by}</a>
+                        <a>{blogContent?.written_by}</a>
                       </Link>
                     </li>
                   </ul>
@@ -150,7 +167,7 @@ const BlogDetailsContent = () => {
                 {/* Blog Body */}
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: blogContent,
+                    __html: blogContent?.content,
                   }}
                 />
                 {/* <pre>
@@ -245,7 +262,7 @@ const BlogDetailsContent = () => {
               {/* Article footer */}
               <div className="article-footer">
                 <div className="article-tags">
-                  {blogDetails?.blog_details.hashtags.map((hashtag, index) => (
+                  {blogContent?.hashtags?.map((hashtag, index) => (
                     <a key={index}>#{hashtag}</a>
                   ))}
                 </div>
@@ -279,7 +296,7 @@ const BlogDetailsContent = () => {
                 <Stack>
                   <Stack direction="row" alignItems="center" gap={1}>
                     <VisibilityIcon />
-                    {blogvisits}
+                    {blogContent.visits}
                   </Stack>
                 </Stack>
               </Stack>
@@ -325,7 +342,7 @@ const BlogDetailsContent = () => {
 
                     <PinterestShareButton
                       url={blogurl}
-                      media={blogDetails?.blog_details?.title_img}
+                      media={blogContent?.title_img}
                     >
                       <a>
                         <PinterestIcon size={20} round={true} /> Pinterest
