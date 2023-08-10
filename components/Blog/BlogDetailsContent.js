@@ -108,7 +108,7 @@ const BlogDetailsContent = () => {
       return 0; // Return 0 in case of an error
     }
   };
-
+  console.log("changes");
   return (
     <section className="blog-details-area ptb-100">
       <div className="container">
@@ -163,7 +163,6 @@ const BlogDetailsContent = () => {
                     __html: blogDetails?.blog_details?.page_content,
                   }}
                 />
-
                 {/* <pre>
                   <code>
                     return{" "}
