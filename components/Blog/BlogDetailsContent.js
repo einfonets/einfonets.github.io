@@ -1,19 +1,7 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import BlogComments from "./BlogComments";
 import BlogSidebar from "./BlogSidebar";
-import {
-  Box,
-  Button,
-  Checkbox,
-  IconButton,
-  List,
-  ListItem,
-  ListItemButton,
-  Radio,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Button, Radio, Stack, Typography } from "@mui/material";
 import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ThumbDownOutlinedIcon from "@mui/icons-material/ThumbDownOutlined";
@@ -35,7 +23,7 @@ import {
   WhatsappShareButton,
 } from "react-share";
 import { useRouter } from "next/router";
-import { blogs, getUpdatedBlogs } from "../blogs";
+import { blogs } from "../blogs";
 import firebase from "../../firebase/clientApp";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 const BlogDetailsContent = () => {
@@ -48,6 +36,7 @@ const BlogDetailsContent = () => {
   const blogurl = `https://einfonets.com/blog-details/${blogId}/`;
   const [feedback, setFeedback] = useState("");
   const [blogvisits, setBlogVisits] = useState(0);
+  const [blogContent, setBlogContent] = useState("");
   const handleFeedbackChange = (event) => {
     setFeedback(event.target.value);
   };
@@ -70,6 +59,7 @@ const BlogDetailsContent = () => {
         // If the document doesn't exist, create it with an initial value of 1
         blogCountRef.set({
           visits: 1,
+          content: blogDetails?.blog_details?.page_content,
         });
       }
     } catch (error) {
@@ -80,17 +70,18 @@ const BlogDetailsContent = () => {
   useEffect(() => {
     if (blogId !== undefined) {
       incrementVisitorCounter();
-      const getVisitorCount = async () => {
+      const setBlogDetails = async () => {
         if (blogId !== undefined) {
-          const count = await fetchVisitorCount();
-          setBlogVisits(count);
+          const details = await fetchBlogDetails();
+          setBlogVisits(details.visits);
+          setBlogContent(details.content);
         }
       };
 
-      getVisitorCount();
+      setBlogDetails();
     }
   }, [blogId]);
-  const fetchVisitorCount = async () => {
+  const fetchBlogDetails = async () => {
     try {
       const blogCountRef = firebase
         .firestore()
@@ -99,16 +90,15 @@ const BlogDetailsContent = () => {
       const doc = await blogCountRef.get();
 
       if (doc.exists) {
-        return doc.data().visits + 1; // Return the visitor count if the document exists
+        return { visits: doc.data().visits + 1, content: doc.data().content }; // Return the visitor count if the document exists
       } else {
-        return 1; // Return 0 if the document doesn't exist (no visitors yet)
+        return { visits: 1, content: blogDetails?.blog_details?.page_content }; // Return 0 if the document doesn't exist (no visitors yet)
       }
     } catch (error) {
       console.error("Error fetching visitor count:", error);
       return 0; // Return 0 in case of an error
     }
   };
-  console.log("changes");
   return (
     <section className="blog-details-area ptb-100">
       <div className="container">
@@ -160,7 +150,7 @@ const BlogDetailsContent = () => {
                 {/* Blog Body */}
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: blogDetails?.blog_details?.page_content,
+                    __html: blogContent,
                   }}
                 />
                 {/* <pre>
