@@ -36,6 +36,7 @@ const BlogDetailsContent = () => {
     }
   }, [router.isReady]);
 
+  alert(blogId);
   const currentBlogIndex = blogs.findIndex((blog) => blog.id === blogId);
   const prevBlogIndex = (currentBlogIndex - 1 + blogs.length) % blogs.length;
   const nextBlogIndex = (currentBlogIndex + 1) % blogs.length;
