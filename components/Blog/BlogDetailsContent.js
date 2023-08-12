@@ -28,7 +28,14 @@ import firebase from "../../firebase/clientApp";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 const BlogDetailsContent = () => {
   const router = useRouter();
-  const blogId = router.query.id;
+  const [blogId, setBlogId] = useState("");
+  useEffect(() => {
+    if (router.isReady) {
+      var blogId = router.query.id;
+      setBlogId(blogId);
+    }
+  }, [router.isReady]);
+
   const currentBlogIndex = blogs.findIndex((blog) => blog.id === blogId);
   const prevBlogIndex = (currentBlogIndex - 1 + blogs.length) % blogs.length;
   const nextBlogIndex = (currentBlogIndex + 1) % blogs.length;
@@ -72,7 +79,7 @@ const BlogDetailsContent = () => {
   console.log("Blog Id", blogId);
   console.log("Blog Details", blogContent);
   useEffect(() => {
-    if (blogId !== undefined) {
+    if (blogId !== "") {
       incrementVisitorCounter();
       const setBlogDetails = async () => {
         if (blogId !== undefined) {
