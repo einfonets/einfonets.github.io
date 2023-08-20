@@ -147,7 +147,7 @@ class FaqContent extends Component {
                   <AccordionItem uuid="g">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How can I stay updated with Einfonets' latest news and
+                        How can I stay updated with einfonets latest news and
                         insights?
                       </AccordionItemButton>
                     </AccordionItemHeading>
