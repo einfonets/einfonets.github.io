@@ -1,27 +1,24 @@
-import React, { Component } from 'react';
-import NavbarThree from '../components/Layouts/NavbarThree';
-import PageTitleArea from '../components/Common/PageTitleArea';
-import AboutContent from '../components/About/AboutContent';
-import Partner from '../components/Common/Partner';
-import WhyChooseUsTwo from '../components/Common/WhyChooseUsTwo';
-import TeamMember from '../components/About/TeamMember';
-import DownloadApp from '../components/Common/DownloadApp';
-import ClientsFeedbackSlider from '../components/Common/ClientsFeedbackSlider';
-import FreeTrialArea from '../components/Common/FreeTrialArea';
-import Footer from '../components/Layouts/Footer';
-import PortfolioContent from '../components/Portfolio/PortfolioContent';
-import ScrollAnimation from 'react-animate-on-scroll';
+import React, { Component } from "react";
+import NavbarThree from "../components/Layouts/NavbarThree";
+import PageTitleArea from "../components/Common/PageTitleArea";
+import AboutContent from "../components/About/AboutContent";
+import Partner from "../components/Common/Partner";
+import WhyChooseUsTwo from "../components/Common/WhyChooseUsTwo";
+import TeamMember from "../components/About/TeamMember";
+import DownloadApp from "../components/Common/DownloadApp";
+import ClientsFeedbackSlider from "../components/Common/ClientsFeedbackSlider";
+import FreeTrialArea from "../components/Common/FreeTrialArea";
+import Footer from "../components/Layouts/Footer";
+import PortfolioContent from "../components/Portfolio/PortfolioContent";
+import ScrollAnimation from "react-animate-on-scroll";
 class Portfolio extends Component {
-    render() {
-        return (
-            <>
-                <NavbarThree />
-                <PageTitleArea
-                    pageTitle="Portfolio"
-                    pageDescription=""
-                />
-                <PortfolioContent />
-                {/* <section className="features-area pt-100 pb-70">
+  render() {
+    return (
+      <>
+        <NavbarThree />
+        <PageTitleArea pageTitle="Portfolio" pageDescription="" />
+        <PortfolioContent />
+        {/* <section className="features-area pt-100 pb-70">
                     <div className="container">
                         <div className="section-title">
                             <h2>Our...</h2>
@@ -29,7 +26,7 @@ class Portfolio extends Component {
 
                         <div className="row"> */}
 
-                {/* <div className="col-lg-4 col-sm-6">
+        {/* <div className="col-lg-4 col-sm-6">
                                 <ScrollAnimation animateIn="fadeInUp" delay={200} animateOnce={true}>
                                     <div className="features-box">
                                         <div className="icon">
@@ -44,9 +41,7 @@ class Portfolio extends Component {
                                 </ScrollAnimation>
                             </div> */}
 
-
-
-                {/* <div className="col-lg-4 col-sm-6">
+        {/* <div className="col-lg-4 col-sm-6">
                                 <ScrollAnimation animateIn="fadeInUp" delay={100} animateOnce={true}>
                                     <div className="features-box">
                                         <div className="icon">
@@ -97,16 +92,16 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </section> */}
-                {/* <Partner />
+        {/* <Partner />
                 <WhyChooseUsTwo /> */}
-                {/* <TeamMember /> */}
-                {/* <DownloadApp /> */}
-                {/* <ClientsFeedbackSlider /> */}
-                {/* <FreeTrialArea /> */}
-                <Footer />
-            </>
-        );
-    }
+        {/* <TeamMember /> */}
+        {/* <DownloadApp /> */}
+        {/* <ClientsFeedbackSlider /> */}
+        {/* <FreeTrialArea /> */}
+        <Footer />
+      </>
+    );
+  }
 }
 
-export default Portfolio; 
+export default Portfolio;

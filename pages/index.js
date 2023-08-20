@@ -34,7 +34,7 @@ class Index extends Component {
         {/* <FaqContent /> */}
         <SubscribeStyleOne />
         <BlogPostStyleOne />
-
+        <FaqContent />
         <Footer />
       </>
     );

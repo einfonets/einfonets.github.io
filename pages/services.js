@@ -1,38 +1,35 @@
-import React, { Component } from 'react';
-import NavbarThree from '../components/Layouts/NavbarThree';
-import PageTitleArea from '../components/Common/PageTitleArea';
-import ServicesStyleTwo from '../components/Services/ServicesStyleTwo';
-import ClientsFeedbackSliderTwo from '../components/Common/ClientsFeedbackSliderTwo';
-import WhyChooseUs from '../components/Common/WhyChooseUs';
-import SubscribeStyleTwo from '../components/Common/SubscribeStyleTwo';
-import OurLovingClients from '../components/Common/OurLovingClients';
-import Footer from '../components/Layouts/Footer';
+import React, { Component } from "react";
+import NavbarThree from "../components/Layouts/NavbarThree";
+import PageTitleArea from "../components/Common/PageTitleArea";
+import ServicesStyleTwo from "../components/Services/ServicesStyleTwo";
+import ClientsFeedbackSliderTwo from "../components/Common/ClientsFeedbackSliderTwo";
+import WhyChooseUs from "../components/Common/WhyChooseUs";
+import SubscribeStyleTwo from "../components/Common/SubscribeStyleTwo";
+import OurLovingClients from "../components/Common/OurLovingClients";
+import Footer from "../components/Layouts/Footer";
 
 class Services2 extends Component {
-    render() {
-        return (
-            <>
-                <NavbarThree />
+  render() {
+    return (
+      <>
+        <NavbarThree />
 
-                <PageTitleArea
-                    pageTitle="Services We Offer"
-                    pageDescription=""
-                />
+        <PageTitleArea pageTitle="Services We Offer" pageDescription="" />
 
-                <ServicesStyleTwo />
+        <ServicesStyleTwo />
 
-                {/* <ClientsFeedbackSliderTwo /> */}
+        {/* <ClientsFeedbackSliderTwo /> */}
 
-                <WhyChooseUs />
+        <WhyChooseUs />
 
-                <SubscribeStyleTwo />
+        <SubscribeStyleTwo />
 
-                <OurLovingClients />
+        <OurLovingClients />
 
-                <Footer />
-            </>
-        );
-    }
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default Services2;

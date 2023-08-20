@@ -12,6 +12,7 @@ import Footer from "../components/Layouts/Footer";
 import OurLovingClients from "../components/Common/OurLovingClients";
 import ScrollAnimation from "react-animate-on-scroll";
 import ClientsFeedbackThree from "../components/Common/ClientsFeedbackThree";
+import FaqContent from "../components/Faq/FaqContent";
 class About extends Component {
   render() {
     return (
@@ -130,6 +131,7 @@ class About extends Component {
         {/* <TeamMember /> */}
         {/* <DownloadApp /> */}
         {/* <ClientsFeedbackSlider /> */}
+        <FaqContent />
         <FreeTrialArea />
         <Footer />
       </>
