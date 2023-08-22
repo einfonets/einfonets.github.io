@@ -1,10 +1,8 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React, { useState, useRef } from "react";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
-import baseUrl from "../../utils/baseUrl";
-
+import emailjs from "@emailjs/browser";
 const alertContent = () => {
   MySwal.fire({
     title: "Congratulations!",
@@ -16,18 +14,29 @@ const alertContent = () => {
   });
 };
 
+const errorContent = () => {
+  MySwal.fire({
+    title: "Unable to send message",
+    text: "Please try again later",
+    icon: "error",
+    timer: 2000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+};
+
 // Form initial state
 const INITIAL_STATE = {
-  name: "",
-  email: "",
-  number: "",
+  from_name: "",
+  from_email: "",
+  from_number: "",
   subject: "",
-  text: "",
+  message: "",
 };
 
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
-
+  const form = useRef();
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
@@ -37,13 +46,22 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = `${baseUrl}/api/contact`;
-      const { name, email, number, subject, text } = contact;
-      const payload = { name, email, number, subject, text };
-      const response = await axios.post(url, payload);
-      console.log(response);
-      setContact(INITIAL_STATE);
-      alertContent();
+      emailjs
+        .sendForm(
+          "service_0bh8y4s",
+          "template_vv9qetu",
+          form.current,
+          "dBnngQwaJyl442SZu"
+        )
+        .then(
+          (result) => {
+            setContact(INITIAL_STATE);
+            alertContent();
+          },
+          (error) => {
+            errorContent();
+          }
+        );
     } catch (error) {
       console.log(error);
     }
@@ -51,18 +69,18 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form">
-      <h3>Let's Start Your Free Trial</h3>
+      <h3>Write to us.</h3>
 
-      <form onSubmit={handleSubmit}>
+      <form ref={form} onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-lg-6 col-md-6">
             <div className="form-group">
               <input
                 type="text"
-                name="name"
+                name="from_name"
                 placeholder="Your Name"
                 className="form-control"
-                value={contact.name}
+                value={contact.from_name}
                 onChange={handleChange}
                 required
               />
@@ -72,10 +90,10 @@ const ContactForm = () => {
             <div className="form-group">
               <input
                 type="email"
-                name="email"
+                name="from_email"
                 placeholder="Your Email"
                 className="form-control"
-                value={contact.email}
+                value={contact.from_email}
                 onChange={handleChange}
                 required
               />
@@ -85,10 +103,10 @@ const ContactForm = () => {
             <div className="form-group">
               <input
                 type="text"
-                name="number"
+                name="from_number"
                 placeholder="Phone number"
                 className="form-control"
-                value={contact.number}
+                value={contact.from_number}
                 onChange={handleChange}
                 minLength={10}
                 maxLength={10}
@@ -112,12 +130,12 @@ const ContactForm = () => {
           <div className="col-lg-12 col-md-12">
             <div className="form-group">
               <textarea
-                name="text"
+                name="message"
                 cols="30"
                 rows="6"
                 placeholder="Your Message"
                 className="form-control"
-                value={contact.text}
+                value={contact.message}
                 onChange={handleChange}
                 required
               />
