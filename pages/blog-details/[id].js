@@ -37,7 +37,7 @@ const BlogDetails = ({
   );
 };
 
-export async function getServerSideProps({ params }) {
+export async function getStaticProps({ params }) {
   // const [blogId, setBlogId] = useState();
   // useEffect(() => {
   //   if (router.isReady) {
@@ -123,3 +123,12 @@ export async function getServerSideProps({ params }) {
 }
 
 export default BlogDetails;
+
+export async function getStaticPaths() {
+  // Generate the paths for all blog posts
+  const paths = blogs.map((blog) => ({
+    params: { id: blog.id },
+  }));
+
+  return { paths, fallback: false }; // fallback: false means that undefined paths will result in a 404 page
+}
