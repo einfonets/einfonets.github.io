@@ -310,7 +310,7 @@ const BlogDetailsContent = ({
                 <Stack>
                   <Stack direction="row" alignItems="center" gap={1}>
                     <VisibilityIcon />
-                    {blogContent.visits}
+                    {blogContent?.visits}
                   </Stack>
                 </Stack>
               </Stack>
