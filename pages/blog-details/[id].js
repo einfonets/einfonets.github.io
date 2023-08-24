@@ -37,7 +37,7 @@ const BlogDetails = ({
   );
 };
 
-export async function getServerSideProps({ params }) {
+export async function getStaticProps({ params }) {
   // const [blogId, setBlogId] = useState();
   // useEffect(() => {
   //   if (router.isReady) {
