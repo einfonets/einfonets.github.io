@@ -7,14 +7,20 @@ import Footer from "../../components/Layouts/Footer";
 import { useRouter } from "next/router";
 import { blogs } from "../../components/blogs";
 import firebase from "../../firebase/clientApp";
-const BlogDetails = ({ blogContent, nextBlogIndex, prevBlogIndex, blogId }) => {
+const BlogDetails = ({
+  blogDetails,
+  blogContent,
+  nextBlogIndex,
+  prevBlogIndex,
+  blogId,
+}) => {
   return (
     <>
       <NavbarThree />
 
       <PageTitleArea
-      // pageTitle={blogDetails?.title}
-      // pageDescription={blogDetails?.written_by}
+        pageTitle={blogDetails?.title}
+        pageDescription={blogDetails?.written_by}
       />
 
       <BlogDetailsContent
@@ -112,7 +118,7 @@ export async function getServerSideProps({ params }) {
   incrementVisitorCounter();
 
   return {
-    props: { blogContent, nextBlogIndex, prevBlogIndex, blogId },
+    props: { blogDetails, blogContent, nextBlogIndex, prevBlogIndex, blogId },
   };
 }
 
