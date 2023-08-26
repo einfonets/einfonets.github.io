@@ -6,6 +6,7 @@ export const blogs = [
     written_by: "Jainil Solanki",
     blog_cover_img:
       "https://a3h4z5g5.rocketcdn.me/wp-content/uploads/2018/04/1.png",
+    read_time: "9",
     blog_details: {
       title_img:
         "https://cloudemployee.co.uk/media/1222199/banner_angularreactvue_jan2022-01.png",
@@ -151,6 +152,7 @@ export const blogs = [
     written_by: "Janmey Solanki",
     blog_cover_img:
       "https://uploads-ssl.webflow.com/63487bd6daefa5678e905dbd/63531d85e708dcd0b430e3e1_6144ffe7cef1575a569e5856_Screen%2520Shot%25202021-09-17%2520at%25202.51.34%2520PM.png",
+    read_time: "9",
     blog_details: {
       title_img:
         "https://www.mendix.com/wp-content/uploads/Blog-ThumbnailSync-vs-Async.png",
@@ -296,6 +298,7 @@ export const blogs = [
     written_by: "Jainil Solanki",
     blog_cover_img:
       "https://raw.githubusercontent.com/LukeBrandonFarrell/open-source-images/master/redux-persist-machine/redux-persist-machine-logo.png",
+    read_time: "9",
     blog_details: {
       title_img:
         "https://res.cloudinary.com/practicaldev/image/fetch/s--XYR8IHJ0--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kc3klysevfy8gh57gbd7.png",
@@ -441,6 +444,7 @@ export const blogs = [
     written_by: "Janmey Solanki",
     blog_cover_img:
       "https://miro.medium.com/v2/resize:fit:1400/1*3GFVLEfT2WJJHS0Ri9Xpxw.jpeg",
+    read_time: "9",
     blog_details: {
       title_img:
         "https://res.cloudinary.com/practicaldev/image/fetch/s--XCrZ7e4W--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/i/rragrhsbtrzs573irt44.png",

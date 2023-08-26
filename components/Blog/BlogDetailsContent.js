@@ -27,6 +27,7 @@ import { blogs } from "../blogs";
 
 import VisibilityIcon from "@mui/icons-material/Visibility";
 const BlogDetailsContent = ({
+  blogDetails,
   blogContent,
   nextBlogIndex,
   prevBlogIndex,
@@ -37,99 +38,7 @@ const BlogDetailsContent = ({
     setFeedback(event.target.value);
   };
   const blogurl = `https://einfonets.com/blog-details/${blogId}/`;
-  // const router = useRouter();
-  // const [blogId, setBlogId] = useState("");
-  // useEffect(() => {
-  //   if (router.isReady) {
-  //     var blogId = router.query.id;
-  //     setBlogId(blogId);
-  //   }
-  // }, [router.isReady]);
-  // const currentBlogIndex = blogs.findIndex((blog) => blog.id === blogId);
-  // const prevBlogIndex = (currentBlogIndex - 1 + blogs.length) % blogs.length;
-  // const nextBlogIndex = (currentBlogIndex + 1) % blogs.length;
-  // const blogDetails = blogs.find((blog) => blog.id === blogId);
-  // const blogurl = `https://einfonets.com/blog-details/${blogId}/`;
-  // const [feedback, setFeedback] = useState("");
-  // const [blogContent, setContent] = useState({});
-  // const handleFeedbackChange = (event) => {
-  //   setFeedback(event.target.value);
-  // };
 
-  // const incrementVisitorCounter = async () => {
-  //   const blogCountRef = firebase
-  //     ?.firestore()
-  //     ?.collection("blogs-count")
-  //     ?.doc(blogId);
-
-  //   try {
-  //     const doc = await blogCountRef.get();
-
-  //     if (doc.exists) {
-  //       // If the document exists, increment the 'visits' field
-  //       blogCountRef.update({
-  //         visits: firebase.firestore.FieldValue.increment(1),
-  //       });
-  //     } else {
-  //       // If the document doesn't exist, create it with an initial value of 1
-  //       blogCountRef.set({
-  //         visits: 1,
-  //         content: blogDetails?.blog_details?.page_content,
-  //         title_img: blogDetails?.blog_details?.title_img,
-  //         written_on: blogDetails?.written_on,
-  //         written_by: blogDetails?.written_by,
-  //         hashtags: blogDetails?.blog_details?.hashtags,
-  //       });
-  //     }
-  //   } catch (error) {
-  //     console.error("Error updating visitor count:", error);
-  //   }
-  // };
-  // useEffect(() => {
-  //   if (blogId !== "") {
-  //     incrementVisitorCounter();
-  //     const setBlogDetails = async () => {
-  //       if (blogId !== undefined) {
-  //         const details = await fetchBlogDetails();
-  //         setContent(details);
-  //       }
-  //     };
-
-  //     setBlogDetails();
-  //   }
-  // }, [blogId]);
-  // const fetchBlogDetails = async () => {
-  //   try {
-  //     const blogCountRef = firebase
-  //       .firestore()
-  //       .collection("blogs-count")
-  //       .doc(blogId);
-  //     const doc = await blogCountRef.get();
-
-  //     if (doc.exists) {
-  //       return {
-  //         visits: doc.data().visits + 1,
-  //         content: doc.data().content,
-  //         title_img: doc.data().title_img,
-  //         written_on: doc.data().written_on,
-  //         written_by: doc.data().written_by,
-  //         hashtags: doc.data().hashtags,
-  //       }; // Return the visitor count if the document exists
-  //     } else {
-  //       return {
-  //         visits: 1,
-  //         content: blogDetails?.blog_details?.page_content,
-  //         title_img: blogDetails?.blog_details?.title_img,
-  //         written_on: blogDetails?.written_on,
-  //         written_by: blogDetails?.written_by,
-  //         hashtags: blogDetails?.blog_details?.hashtags,
-  //       }; // Return 0 if the document doesn't exist (no visitors yet)
-  //     }
-  //   } catch (error) {
-  //     console.error("Error fetching visitor count:", error);
-  //     return 0; // Return 0 in case of an error
-  //   }
-  // };
   return (
     <section className="blog-details-area ptb-100">
       <div className="container">
@@ -144,133 +53,24 @@ const BlogDetailsContent = ({
                   <ul>
                     <li>
                       <i className="bx bx-time"></i>
-                      <Link href="#">
-                        <a>{blogContent?.written_on}</a>
-                      </Link>
+                      <a>{blogContent?.written_on}</a>
                     </li>
                     <li>
                       <i className="bx bx-user"></i>
-                      <Link href="/blog">
-                        <a>{blogContent?.written_by}</a>
-                      </Link>
+                      <a>{blogContent?.written_by}</a>
+                    </li>
+                    <li>
+                      <a>{blogDetails?.read_time} min read</a>
                     </li>
                   </ul>
                 </div>
-                {/* <List>
-                        <ListItem>
-                          <ListItemButton sx={{ borderRadius: "50px" }}>
-                            <a href="#section-1">Standard Image Loading</a>
-                          </ListItemButton>
-                        </ListItem>
-                        <ListItem>
-                          <ListItemButton sx={{ borderRadius: "50px" }}>
-                            <a href="#section-2">Basic Image Loading</a>
-                          </ListItemButton>
-                        </ListItem>
-                        <ListItem>
-                          <ListItemButton sx={{ borderRadius: "50px" }}>
-                            <a href="#section-3">Independent Image Loaders</a>
-                          </ListItemButton>
-                        </ListItem>
-                        <ListItem>
-                          <ListItemButton sx={{ borderRadius: "50px" }}>
-                            <a href="#section-4">Different Image Loaders</a>
-                          </ListItemButton>
-                        </ListItem>
-                      </List> */}
+
                 {/* Blog Body */}
                 <div
                   dangerouslySetInnerHTML={{
                     __html: blogContent?.content,
                   }}
                 />
-                {/* <pre>
-                  <code>
-                    return{" "}
-                    <>
-                      <img src="" alt="image_with_loader" id="loading-image" />
-                    </>
-                  </code>
-                </pre> */}
-                {/* <ul class="block-gallery columns-3">
-                  <li class="blocks-gallery-item">
-                    <figure>
-                      <img src="/images/blog/gallery1.jpg" alt="image" />
-                    </figure>
-                  </li>
-
-                  <li class="blocks-gallery-item">
-                    <figure>
-                      <img src="/images/blog/gallery2.jpg" alt="image" />
-                    </figure>
-                  </li>
-
-                  <li class="blocks-gallery-item">
-                    <figure>
-                      <img src="/images/blog/gallery3.jpg" alt="image" />
-                    </figure>
-                  </li>
-                </ul>
-                <h3 class="mb-0">Four major elements that we offer:</h3>
-                <div class="row">
-                  <div class="col-md-6">
-                    <ul class="features-list">
-                      <li>
-                        <i class="bx bx-check-double"></i>
-                        Scientific Skills For getting a better result
-                      </li>
-                      <li>
-                        <i class="bx bx-check-double"></i>
-                        Communication Skills to getting in touch
-                      </li>
-                      <li>
-                        <i class="bx bx-check-double"></i>A Career Overview
-                        opportunity Available
-                      </li>
-                      <li>
-                        <i class="bx bx-check-double"></i>A good Work
-                        Environment For work
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="col-md-6">
-                    <ul class="features-list">
-                      <li>
-                        <i class="bx bx-check-double"></i>
-                        Scientific Skills For getting a better result
-                      </li>
-                      <li>
-                        <i class="bx bx-check-double"></i>
-                        Communication Skills to getting in touch
-                      </li>
-                      <li>
-                        <i class="bx bx-check-double"></i>A Career Overview
-                        opportunity Available
-                      </li>
-                      <li>
-                        <i class="bx bx-check-double"></i>A good Work
-                        Environment For work
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos
-                  dolores et quas molestias excepturi sint occaecati cupiditate
-                  non provident, similique sunt in culpa qui officia deserunt
-                  mollitia animi, id est laborum et dolorum fuga. Et harum
-                  quidem rerum facilis est et expedita distinctio. Nam libero
-                  tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat facere possimus,
-                  omnis voluptas assumenda est, omnis dolor repellendus.
-                  Temporibus autem quibusdam et aut officiis debitis aut rerum
-                  necessitatibus saepe eveniet ut et voluptates repudiandae sint
-                  et molestiae non recusandae. Itaque earum rerum hic tenetur a
-                  sapiente delectus, ut aut reiciendis voluptatibus maiores
-                  alias consequatur aut perferendis doloribus.
-                </p>{" "} */}
                 {/* Blog Body */}
               </div>
               {/* Article footer */}

@@ -24,6 +24,7 @@ const BlogDetails = ({
       />
 
       <BlogDetailsContent
+        blogDetails={blogDetails}
         blogContent={blogContent}
         nextBlogIndex={nextBlogIndex}
         prevBlogIndex={prevBlogIndex}
@@ -108,6 +109,7 @@ export async function getStaticProps({ params }) {
           written_on: blogDetails?.written_on,
           written_by: blogDetails?.written_by,
           hashtags: blogDetails?.blog_details?.hashtags,
+          read_time: blogDetails?.read_time,
         });
       }
     } catch (error) {
