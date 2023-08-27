@@ -764,7 +764,7 @@ export default function Featured() {
                         justifyContent: "space-between",
                       }}
                     >
-                      <span style={{ color: "teal" }}>Project Ourco</span>
+                      <span style={{ color: "teal" }}>Project OCR</span>
                       <IconButton
                         aria-label="close"
                         onClick={handleCloseDialogs}
