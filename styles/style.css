@@ -4674,63 +4674,50 @@ App Download Area CSS
 /*================================================
 Our Loving Clients Area CSS
 =================================================*/
-.clients-logo-list {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -5px;
-  margin-left: -5px;
-  margin-top: -10px;
+.our-loving-clients {
+  padding: 100px 0;
 }
 
-.single-clients-logo {
-  -ms-flex: 0 0 20%;
-  -webkit-box-flex: 0;
-  flex: 0 0 20%;
-  max-width: 20%;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.single-clients-logo a {
+.section-title {
   text-align: center;
-  display: block;
-  /* background-color: #ffffff; */
-  padding: 30px 20px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  margin-bottom: 40px;
 }
 
-.single-clients-logo a img {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+.section-title h2 {
+  font-size: 36px;
+  margin: 0;
 }
 
-.single-clients-logo a:hover {
-  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  -webkit-transform: translateY(-10px);
+.clients-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.single-client-logo {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.single-client-logo:hover {
   transform: translateY(-10px);
-}
-
-.single-clients-logo a:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.single-clients-logo:nth-child(6) {
-  margin-left: 10%;
-}
-
-.bg-color-f8fbfa .single-clients-logo a {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   background-color: #f8fbfa;
 }
 
-.bg-color-f8fbfa .single-clients-logo a:hover {
-  background-color: #ffffff;
+.single-client-logo a img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*================================================
@@ -8100,7 +8087,7 @@ Featured Area CSS
   overflow: hidden;
 }
 
-.single-featured-box-pointer{
+.single-featured-box-pointer {
   cursor: pointer;
 }
 
