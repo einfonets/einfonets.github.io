@@ -145,7 +145,7 @@ export default function Featured() {
         dialogImg:
           "https://s3.amazonaws.com/info-mongodb-com/_com_assets/media/einfochips_logo.png",
         dialogDetails:
-          "At einfonets, we had the privilege of working with Gophr, a leading delivery and logistics company, to help them develop their delivery system. Our team collaborated closely with Gophr's stakeholders to understand their unique business requirements and design a customized solution that could meet their needs. With our expertise and dedication, we were able to deliver a solution that met Gophr's expectations and helped them establish themselves as a leader in the delivery and logistics industry. We are proud to have been a part of their success story and look forward to continuing our partnership with them in the future.",
+          "In our strategic partnership with eInfochips, we developed a state-of-the-art video conferencing app. By leveraging cutting-edge technologies and our combined expertise, we aimed to redefine the way businesses connect and collaborate. This collaboration represents a fusion of creativity, technical prowess, and a shared vision to create a seamless, efficient, and secure video conferencing experience that meets the evolving needs of today's digital landscape.",
       },
     },
     {
@@ -236,7 +236,7 @@ export default function Featured() {
         ],
         dialogImg: "https://vid-on.us/images/logo.png",
         dialogDetails:
-          "Partnering with Ourco, we crafted a tailored app that reflects their essence. Our team's expertise led to an intuitive, high-performance app, streamlining user engagement and embodying Ourco's values seamlessly. With this collaboration, we've turned ideas into a dynamic digital reality.",
+          "Our team embarked on a journey to develop a versatile video meetings app for Vidon, catering to users across web, iOS, and Android platforms. To achieve this, we employed a combination of cutting-edge technologies, including Jitsi and WebRTC, to craft innovative solutions that would redefine the video conferencing experience. WebRTC technology played a pivotal role in enabling Vidon's video meetings to function effortlessly through web browsers, iOS devices, and Android smartphones, ensuring that users could participate in meetings from virtually anywher",
       },
     },
     {
