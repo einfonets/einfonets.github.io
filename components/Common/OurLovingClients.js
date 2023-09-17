@@ -31,10 +31,10 @@ const Clients = [
     name: "Safmical",
     logo: "https://s3-ap-south-1.amazonaws.com/internshala-uploads-new/google_logo/5e483324a87501581789988.jpg",
   },
-  {
-    name: "Social Sloths",
-    logo: "https://media.licdn.com/dms/image/C560BAQGWP_gt6S7ijA/company-logo_200_200/0/1590951258845?e=2147483647&v=beta&t=cFaaCWxrOA3YBIcIVMW8HO01FpVPU3S5rG2KskdBMSE",
-  },
+  // {
+  //   name: "Social Sloths",
+  //   logo: "https://media.licdn.com/dms/image/C560BAQGWP_gt6S7ijA/company-logo_200_200/0/1590951258845?e=2147483647&v=beta&t=cFaaCWxrOA3YBIcIVMW8HO01FpVPU3S5rG2KskdBMSE",
+  // },
   {
     name: "Ren Tech",
     logo: "/images/marketing-agency/Projectc.png",
@@ -52,7 +52,11 @@ class OurLovingClients extends Component {
 
           <div className="clients-logo-grid">
             {Clients.map((client, index) => (
-              <div className="single-client-logo" key={client.name}>
+              <div
+                className="single-client-logo"
+                key={client.name}
+                // style={{ borderRadius: 5 }}
+              >
                 <Link href="/portfolio">
                   <a>
                     <img
