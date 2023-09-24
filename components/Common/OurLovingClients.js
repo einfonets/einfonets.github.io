@@ -31,10 +31,10 @@ const Clients = [
     name: "Safmical",
     logo: "https://s3-ap-south-1.amazonaws.com/internshala-uploads-new/google_logo/5e483324a87501581789988.jpg",
   },
-  // {
-  //   name: "Social Sloths",
-  //   logo: "https://media.licdn.com/dms/image/C560BAQGWP_gt6S7ijA/company-logo_200_200/0/1590951258845?e=2147483647&v=beta&t=cFaaCWxrOA3YBIcIVMW8HO01FpVPU3S5rG2KskdBMSE",
-  // },
+  {
+    name: "SIRP",
+    logo: "https://www.sirp.io/wp-content/uploads/2022/05/Logox2.png",
+  },
   {
     name: "Ren Tech",
     logo: "/images/marketing-agency/Projectc.png",
