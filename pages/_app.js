@@ -87,7 +87,7 @@ export default class MyApp extends App {
           />
           <meta
             property="og:image"
-            content="https://www.einfonets.com/images/logo.svg"
+            content="https://www.einfonets.com/images/services/service1.png"
           />
           <meta property="og:url" content="https://www.einfonets.com" />
           <meta property="og:type" content="website" />
