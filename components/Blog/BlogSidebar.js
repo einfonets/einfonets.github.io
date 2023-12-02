@@ -19,7 +19,11 @@ const BlogSidebar = () => {
   const popularBlogs = sortedBlogs.slice(0, 3);
 
   return (
-    <div className="widget-area" id="secondary">
+    <div
+      className="widget-area"
+      id="secondary"
+      style={{ position: "sticky", top: "120px" }}
+    >
       {/* Search widget */}
       {/* <div className="widget widget_search">
           <form className="search-form">

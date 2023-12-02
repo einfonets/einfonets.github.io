@@ -61,15 +61,26 @@ export default class MyApp extends App {
           />
 
           <meta
+            name="twitter:card"
+            content="Software Professional | Einfonets | Software Company | Leading IT Solutions Provider"
+          ></meta>
+
+          <meta
             name="og:title"
             property="og:title"
             content="Software Professional | Einfonets | Software Company | Leading IT Solutions Provider"
           ></meta>
           <meta
-            name="twitter:card"
-            content="Software Professional | Einfonets | Software Company | Leading IT Solutions Provider"
-          ></meta>
-          <link rel="canonical" href="http://www.einfonets.com/"></link>
+            property="og:description"
+            content="Einfonets Works Creatively to Provide Software Solutions. Our Software Developers Are Here to Help You with the Right Software Solutions."
+          />
+          <meta
+            property="og:image"
+            content="https://www.einfonets.com/images/services/service1.png"
+          />
+          <meta property="og:url" content="https://www.einfonets.com" />
+          <meta property="og:type" content="website" />
+          <link rel="canonical" href="https://www.einfonets.com"></link>
         </Head>
 
         <Component {...pageProps} />
