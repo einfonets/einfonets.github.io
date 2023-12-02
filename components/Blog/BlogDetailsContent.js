@@ -264,6 +264,7 @@ const BlogDetailsContent = ({
                         minWidth: 100,
                         minHeight: 100,
                         maxHeight: 100,
+                        objectFit: "cover",
                       }}
                       src={blogs[prevBlogIndex].blog_cover_img}
                       alt="Previous Blog"
@@ -320,6 +321,7 @@ const BlogDetailsContent = ({
                         minWidth: 100,
                         minHeight: 100,
                         maxHeight: 100,
+                        objectFit: "cover",
                       }}
                       src={blogs[nextBlogIndex].blog_cover_img}
                       alt="Next Blog"

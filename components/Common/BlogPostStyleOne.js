@@ -28,7 +28,11 @@ class BlogPostStyleOne extends Component {
                         >
                           <a>
                             <img
-                              style={{ minHeight: 300, maxHeight: 300 }}
+                              style={{
+                                minHeight: 300,
+                                maxHeight: 300,
+                                objectFit: "cover",
+                              }}
                               src={blog.blog_cover_img}
                               alt="image"
                             />
