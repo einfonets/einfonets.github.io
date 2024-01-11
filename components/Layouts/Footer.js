@@ -150,6 +150,13 @@ class Footer extends Component {
                 src="https://shareables.clutch.co/share/badges/2125539/40711?utm_source=clutch_top_company_badge&utm_medium=image_embed"
                 title="Top Clutch Genexus Development Ahmedabad 2024"
               ></iframe>
+              <div
+                className="goodfirm-widget"
+                data-widget-type="goodfirms-widget-t1"
+                data-widget-pattern="poweredby-star"
+                data-height="60"
+                data-company-id="146852"
+              ></div>
             </div>
           </div>
 
