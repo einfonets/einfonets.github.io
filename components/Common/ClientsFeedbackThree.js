@@ -20,7 +20,7 @@ class ClientsFeedbackThree extends Component {
                     color="secondary"
                     style={{ fontSize: "100px" }}
                   />
-                  <h3>Ekjyot Sandhu</h3>
+                  <h3>Sayandip Som</h3>
                   <span>G.M at Ren Tech</span>
                 </div>
 

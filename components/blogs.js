@@ -411,8 +411,7 @@ export const blogs = [
   },
   {
     id: "ff8a52ce-fe14-4cc7-bcb3-881d6dd92f4c",
-    title:
-      "Google releases Flutter for Windows: a significant update for building apps",
+    title: "Google announces Flutter for Windows, a big app development update",
     written_on: "August 22, 2023",
     written_by: "Janmey Solanki",
     blog_cover_img:
@@ -429,13 +428,13 @@ export const blogs = [
         "Google",
         "einfonets",
       ],
-      page_content: `<p><em><strong>Google announces a significant update to Flutter to make building apps for Windows easier.</strong></em></p>\n<h2>Flutter supports building apps for Windows.</h2>\n<p>Here is the significant new feature announced by Google for Flutter 2.10: stable support for Windows applications. The goal is to allow Windows developers to benefit from the same productivity and power as mobile developers. Thus, developers can create desktop applications in Flutter while targeting: iOS, Android, Linux, and the web.</p>\n<p>Microsoft teams also contributed to the project. Kevin Gallo, Corporate Vice President for Windows Developer Platform at Microsoft, said, &#8220;We are thrilled to see <a title=\"https://www.einfonets.com/services\" href=\"https://www.einfonets.com/services\">Flutter developers</a><span data-key=\"337\"> bringing their experiences to Windows and also publishing to the Microsoft Store. Support for Flutter for Windows is a big step forward for the community, and we can&#8217;t wait to see what you bring to Windows! </span></p>\n<p>Good to know: Flutter already supported Linux, Windows, and macOS in beta, but Windows is the first to get stable support.</p>\n<h2>Why does Google optimize Flutter for Windows?</h2>\n<p>Google explains: &#8220;Desktop apps aren&#8217;t just mobile apps running on a bigger screen. They are designed for different input devices, such as a keyboard and mouse. They have resizable windows that often run on a widescreen. There are different conventions for critical elements such as accessibility, input method editors, and visual style.</p>\n<p>Another reason for this Flutter update for Windows: the firm specifies that PC applications also use different APIs from those running on Android or iOS.</p>\n<h2>Flutter, a real opportunity for cross-platform development</h2>\n<p>Rolling out in March 2021, Flutter 2 now allows developers to build apps for any platform: iOS, Android, Windows, macOS, and Linux, as well as web experiences targeting browsers such as Chrome, Firefox, Safari, or Edge. Google&#8217;s framework is free and open source.</p>`,
+      page_content: `<p><em><strong>Google announces a significant update to Flutter to make building apps for Windows easier.</strong></em></p>\n<h2>Flutter supports building apps for Windows.</h2>\n<p>The major new feature for Flutter 2.10 that Google has announced is solid support for Windows apps. The intention is to provide Windows developers access to the same level of capability and productivity as mobile developers. Developers may therefore use Flutter to create desktop apps that target Linux, iOS, Android, and the web.</p>\n<p>Teams from Microsoft also made contributions to the project. Microsoft's Corporate Vice President for Windows Developer Platform, Kevin Gallo, stated, "We are delighted to see <a title=\"https://www.einfonets.com/services\" href=\"https://www.einfonets.com/services\">Developers for Flutter</a><span data-key=\"337\"> are sharing their knowledge on Windows and the Microsoft Store. We're excited to see what you bring to Windows, and support for Flutter on Windows is a huge step forward for the community! </span></p>\n<p>Good to know: It's useful to note that Flutter has beta support for Linux, Windows, and macOS; however, stable support for Windows is the newest.</p>\n<h2>Why does Google optimize Flutter for Windows?</h2>\n<p>Google explains: &#8220;Desktop apps aren&#8217;t just mobile apps running on a bigger screen. They are designed for different input devices, such as a keyboard and mouse. They have resizable windows that often run on a widescreen. There are different conventions for critical elements such as accessibility, input method editors, and visual style.</p>\n<p>Another reason for this Flutter update for Windows: the firm specifies that PC applications also use different APIs from those running on Android or iOS.</p>\n<h2>Real cross-platform development possibilities with Flutter</h2>\n<p>Rolling out in March 2021, Flutter 2 now allows developers to build apps for any platform: iOS, Android, Windows, macOS, and Linux, as well as web experiences targeting browsers such as Chrome, Firefox, Safari, or Edge. Google&#8217;s framework is free and open source.</p>`,
     },
   },
   {
     id: "7c4c440e-310d-4985-afbc-b86b1fd58f00",
     title:
-      "Leveraging Computer Vision for Video Surveillance: A Comprehensive Guide",
+      "Using Computer Vision for Video Surveillance: An All-In-One Handbook",
     written_on: "October 22, 2023",
     written_by: "Janmey Solanki",
     blog_cover_img: "https://blog.koorsen.com/hubfs/AI_Video_Surveillance.jpg",
@@ -458,7 +457,7 @@ export const blogs = [
   {
     id: "08e7a756-a3cb-4173-8bf6-5baea3c445a9",
     title:
-      "9 Reasons why Laravel is a great choice for web application development",
+      "Why develop web applications with Laravel? Here are the nine strongholds",
     written_on: "November 12, 2023",
     written_by: "Janmey Solanki",
     blog_cover_img:
@@ -480,7 +479,7 @@ export const blogs = [
   },
   {
     id: "a51432ef-f291-473e-8f7b-b7c866615361",
-    title: "Handle widgets visibility like a pro in flutter",
+    title: "Be a flutter ace at managing the visibility of widgets",
     written_on: "December 01, 2023",
     written_by: "Janmey Solanki",
     blog_cover_img:
@@ -531,7 +530,8 @@ export const blogs = [
     title: "Bun bringing fun to JavaScript! How? Find out in this blog",
     written_on: "December 04, 2023",
     written_by: "Janmey Solanki",
-    blog_cover_img:"https://d1tlzifd8jdoy4.cloudfront.net/wp-content/uploads/2022/07/eyecatch_bun_1200x630-960x504.png",
+    blog_cover_img:
+      "https://d1tlzifd8jdoy4.cloudfront.net/wp-content/uploads/2022/07/eyecatch_bun_1200x630-960x504.png",
     read_time: "7",
     blog_details: {
       title_img:
