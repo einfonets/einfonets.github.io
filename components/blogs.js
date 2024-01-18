@@ -457,7 +457,7 @@ export const blogs = [
   {
     id: "08e7a756-a3cb-4173-8bf6-5baea3c445a9",
     title:
-      "Why develop web applications with Laravel? Here are the nine strongholds",
+      "Why develop web applications with Laravel? Here are the 9 strongholds",
     written_on: "November 12, 2023",
     written_by: "Janmey Solanki",
     blog_cover_img:
