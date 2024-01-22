@@ -20,6 +20,11 @@ class MyDocument extends Document {
             type="text/javascript"
             src="https://assets.goodfirms.co/assets/js/widget.min.js"
           ></script>
+          <script
+            type="text/javascript"
+            src="https://widget.clutch.co/static/js/widget.js"
+            async
+          ></script>
           <Main />
           <NextScript />
         </body>

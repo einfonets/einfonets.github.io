@@ -151,11 +151,22 @@ class Footer extends Component {
                 title="Top Clutch Genexus Development Ahmedabad 2024"
               ></iframe>
               <div
+                className="clutch-widget"
+                data-url="https://widget.clutch.co"
+                data-widget-type="2"
+                data-height="45"
+                data-nofollow="true"
+                data-expandifr="true"
+                data-clutchcompany-id="2125539"
+                style={{ marginTop: 8 }}
+              ></div>
+              <div
                 className="goodfirm-widget"
                 data-widget-type="goodfirms-widget-t1"
                 data-widget-pattern="poweredby-star"
                 data-height="60"
                 data-company-id="146852"
+                style={{ maxWidth: 200 }}
               ></div>
             </div>
           </div>
