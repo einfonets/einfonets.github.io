@@ -70,41 +70,7 @@ export default function Featured() {
           "On2Cook, a popular recipe-sharing app, faced issues with slow performance and user engagement plateauing. Our team revamped the app by optimizing its code, implementing server load balancing, and adding efficient caching. For user engagement, we personalized recipe recommendations and improved social interaction. We also integrated advanced features, such as device queuing for recipes and background processing for orders. These changes resulted in faster performance, a 30% increase in performance, and solidified On2Cook's competitive edge.",
       },
     },
-    {
-      tagLine:
-        "Streamlining Delivery Operations: Our Delivery System Development for Gophr",
-      titleImg:
-        "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/th20rkbpaqzqtvdgcyex",
-      dialogData: {
-        title: "Project Gophr",
-        techstack: [
-          {
-            name: "React",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-          },
-          {
-            name: "Bootstrap",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png",
-          },
-          {
-            name: "Php",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png",
-          },
-          {
-            name: "MySql",
-            logo: "https://pipedream.com/s.v0/app_1YMhwo/logo/orig",
-          },
-          {
-            name: "AWS Lambda Function",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png",
-          },
-        ],
-        dialogImg:
-          "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/th20rkbpaqzqtvdgcyex",
-        dialogDetails:
-          "At einfonets, we had the privilege of working with Gophr, a leading delivery and logistics company, to help them develop their delivery system. Our team collaborated closely with Gophr's stakeholders to understand their unique business requirements and design a customized solution that could meet their needs. With our expertise and dedication, we were able to deliver a solution that met Gophr's expectations and helped them establish themselves as a leader in the delivery and logistics industry. We are proud to have been a part of their success story and look forward to continuing our partnership with them in the future.",
-      },
-    },
+
     {
       tagLine:
         "Streamlined video conferencing for eInfochips, making it effortless",

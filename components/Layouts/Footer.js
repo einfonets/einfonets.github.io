@@ -166,7 +166,7 @@ class Footer extends Component {
                 data-widget-pattern="poweredby-star"
                 data-height="60"
                 data-company-id="146852"
-                style={{ maxWidth: 200 }}
+                style={{ maxWidth: 212 }}
               ></div>
             </div>
           </div>

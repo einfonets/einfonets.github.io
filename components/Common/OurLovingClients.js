@@ -6,10 +6,7 @@ const Clients = [
     name: "on2cook",
     logo: "https://mms.businesswire.com/media/20221109005461/en/1630776/5/on2cooklogo.jpg",
   },
-  {
-    name: "Gophr",
-    logo: "https://uk.gophr.com/wp-content/uploads/2019/10/Gophr_Logo_Landscape_1.png",
-  },
+
   {
     name: "einfochips",
     logo: "https://s3.amazonaws.com/info-mongodb-com/_com_assets/media/einfochips_logo.png",
@@ -31,10 +28,7 @@ const Clients = [
     name: "Safmical",
     logo: "https://s3-ap-south-1.amazonaws.com/internshala-uploads-new/google_logo/5e483324a87501581789988.jpg",
   },
-  {
-    name: "SIRP",
-    logo: "https://www.sirp.io/wp-content/uploads/2022/05/Logox2.png",
-  },
+
   {
     name: "Ren Tech",
     logo: "/images/marketing-agency/Projectc.png",
