@@ -15,6 +15,7 @@ import SubscribeStyleOne from "../components/Common/SubscribeStyleOne";
 import BlogPostStyleOne from "../components/Common/BlogPostStyleOne";
 import Footer from "../components/Layouts/Footer";
 import ClientsFeedbackThree from "../components/Common/ClientsFeedbackThree";
+import { TawkToScript } from "../components/Tawk/TawkToScript";
 
 class Index extends Component {
   render() {
@@ -36,6 +37,7 @@ class Index extends Component {
         <BlogPostStyleOne />
         <FaqContent />
         <Footer />
+        <TawkToScript />
       </>
     );
   }
