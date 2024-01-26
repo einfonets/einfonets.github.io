@@ -1,14 +1,33 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import Link from "next/link";
-import { blogs } from "../blogs";
+import { sortedBlogs } from "../blogs";
+import { Pagination } from "@mui/material";
+const BLOGS_PER_PAGE = 6;
 
 class BlogGrid extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentPage: 1,
+      blogsPerPage: BLOGS_PER_PAGE,
+    };
+  }
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.currentPage !== this.state.currentPage) {
+      window.scrollTo(0, 110);
+    }
+  }
   render() {
+    const { currentPage, blogsPerPage } = this.state;
+    const indexOfLastBlog = currentPage * blogsPerPage;
+    const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
+    const currentBlogs = sortedBlogs.slice(indexOfFirstBlog, indexOfLastBlog);
+
     return (
       <section className="blog-area ptb-100">
         <div className="container">
           <div className="row">
-            {blogs.map((blog) => {
+            {currentBlogs.map((blog) => {
               return (
                 <div className="col-lg-4 col-md-6">
                   <div className="single-blog-post">
@@ -70,388 +89,46 @@ class BlogGrid extends Component {
                 </div>
               );
             })}
-            {/* <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="post-image">
-                  <Link href="/blog-details">
-                    <a>
-                      <img src="/images/blog/blog1.jpg" alt="image" />
-                    </a>
-                  </Link>
-
-                  <div className="date">
-                    <i className="bx bx-calendar"></i> Feb 14, 2020
-                  </div>
-                </div>
-
-                <div className="post-content">
-                  <h3>
-                    <Link href="/blog-details">
-                      <a>50 world-changing people, We lost in the 2010s</a>
-                    </Link>
-                  </h3>
-
-                  <div className="post-info">
-                    <div className="post-by">
-                      <img src="/images/author/author1.jpg" alt="image" />
-                      <h6>Sarah Taylor</h6>
-                    </div>
-
-                    <div className="details-btn">
-                      <Link href="/blog-details">
-                        <a>
-                          <i className="bx bx-right-arrow-alt"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="post-image">
-                  <Link href="/blog-details">
-                    <a>
-                      <img src="/images/blog/blog2.jpg" alt="image" />
-                    </a>
-                  </Link>
-
-                  <div className="date">
-                    <i className="bx bx-calendar"></i> Feb 16, 2020
-                  </div>
-                </div>
-
-                <div className="post-content">
-                  <h3>
-                    <Link href="/blog-details">
-                      <a>Don't buy a tech gift until you read these rules</a>
-                    </Link>
-                  </h3>
-
-                  <div className="post-info">
-                    <div className="post-by">
-                      <img src="/images/author/author2.jpg" alt="image" />
-                      <h6>Michel John</h6>
-                    </div>
-
-                    <div className="details-btn">
-                      <Link href="/blog-details">
-                        <a>
-                          <i className="bx bx-right-arrow-alt"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="post-image">
-                  <Link href="/blog-details">
-                    <a>
-                      <img src="/images/blog/blog3.jpg" alt="image" />
-                    </a>
-                  </Link>
-
-                  <div className="date">
-                    <i className="bx bx-calendar"></i> Feb 18, 2020
-                  </div>
-                </div>
-
-                <div className="post-content">
-                  <h3>
-                    <Link href="/blog-details">
-                      <a>The golden rule of buying a phone as a gift</a>
-                    </Link>
-                  </h3>
-
-                  <div className="post-info">
-                    <div className="post-by">
-                      <img src="/images/author/author3.jpg" alt="image" />
-                      <h6>Lucy Eva</h6>
-                    </div>
-
-                    <div className="details-btn">
-                      <Link href="/blog-details">
-                        <a>
-                          <i className="bx bx-right-arrow-alt"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="post-image">
-                  <Link href="/blog-details">
-                    <a>
-                      <img src="/images/blog/blog4.jpg" alt="image" />
-                    </a>
-                  </Link>
-
-                  <div className="date">
-                    <i className="bx bx-calendar"></i> Feb 19, 2020
-                  </div>
-                </div>
-
-                <div className="post-content">
-                  <h3>
-                    <Link href="/blog-details">
-                      <a>Configure redux into your WordPress theme</a>
-                    </Link>
-                  </h3>
-
-                  <div className="post-info">
-                    <div className="post-by">
-                      <img src="/images/author/author4.jpg" alt="image" />
-                      <h6>Michel John</h6>
-                    </div>
-
-                    <div className="details-btn">
-                      <Link href="/blog-details">
-                        <a>
-                          <i className="bx bx-right-arrow-alt"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="post-image">
-                  <Link href="/blog-details">
-                    <a>
-                      <img src="/images/blog/blog5.jpg" alt="image" />
-                    </a>
-                  </Link>
-
-                  <div className="date">
-                    <i className="bx bx-calendar"></i> Feb 20, 2020
-                  </div>
-                </div>
-
-                <div className="post-content">
-                  <h3>
-                    <Link href="/blog-details">
-                      <a>How to setup redux in react next application</a>
-                    </Link>
-                  </h3>
-
-                  <div className="post-info">
-                    <div className="post-by">
-                      <img src="/images/author/author5.jpg" alt="image" />
-                      <h6>Lucy Eva</h6>
-                    </div>
-
-                    <div className="details-btn">
-                      <Link href="/blog-details">
-                        <a>
-                          <i className="bx bx-right-arrow-alt"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="post-image">
-                  <Link href="/blog-details">
-                    <a>
-                      <img src="/images/blog/blog6.jpg" alt="image" />
-                    </a>
-                  </Link>
-
-                  <div className="date">
-                    <i className="bx bx-calendar"></i> Feb 21, 2020
-                  </div>
-                </div>
-
-                <div className="post-content">
-                  <h3>
-                    <Link href="/blog-details">
-                      <a>How to resubmit rejected item into themeforest?</a>
-                    </Link>
-                  </h3>
-
-                  <div className="post-info">
-                    <div className="post-by">
-                      <img src="/images/author/author5.jpg" alt="image" />
-                      <h6>Lucy Eva</h6>
-                    </div>
-
-                    <div className="details-btn">
-                      <Link href="/blog-details">
-                        <a>
-                          <i className="bx bx-right-arrow-alt"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="post-image">
-                  <Link href="/blog-details">
-                    <a>
-                      <img src="/images/blog/blog7.jpg" alt="image" />
-                    </a>
-                  </Link>
-
-                  <div className="date">
-                    <i className="bx bx-calendar"></i> Feb 22, 2020
-                  </div>
-                </div>
-
-                <div className="post-content">
-                  <h3>
-                    <Link href="/blog-details">
-                      <a>How to resubmit rejected item into themeforest?</a>
-                    </Link>
-                  </h3>
-
-                  <div className="post-info">
-                    <div className="post-by">
-                      <img src="/images/author/author7.jpg" alt="image" />
-                      <h6>Sarah Taylor</h6>
-                    </div>
-
-                    <div className="details-btn">
-                      <Link href="/blog-details">
-                        <a>
-                          <i className="bx bx-right-arrow-alt"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="post-image">
-                  <Link href="/blog-details">
-                    <a>
-                      <img src="/images/blog/blog8.jpg" alt="image" />
-                    </a>
-                  </Link>
-
-                  <div className="date">
-                    <i className="bx bx-calendar"></i> Feb 23, 2020
-                  </div>
-                </div>
-
-                <div className="post-content">
-                  <h3>
-                    <Link href="/blog-details">
-                      <a>How to the active menu based on url in next.js?</a>
-                    </Link>
-                  </h3>
-
-                  <div className="post-info">
-                    <div className="post-by">
-                      <img src="/images/author/author8.jpg" alt="image" />
-                      <h6>Michel John</h6>
-                    </div>
-
-                    <div className="details-btn">
-                      <Link href="/blog-details">
-                        <a>
-                          <i className="bx bx-right-arrow-alt"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="post-image">
-                  <Link href="/blog-details">
-                    <a>
-                      <img src="/images/blog/blog9.jpg" alt="image" />
-                    </a>
-                  </Link>
-
-                  <div className="date">
-                    <i className="bx bx-calendar"></i> Feb 24, 2020
-                  </div>
-                </div>
-
-                <div className="post-content">
-                  <h3>
-                    <Link href="/blog-details">
-                      <a>How to create a responsive popup gallery?</a>
-                    </Link>
-                  </h3>
-
-                  <div className="post-info">
-                    <div className="post-by">
-                      <img src="/images/author/author9.jpg" alt="image" />
-                      <h6>Lucy Eva</h6>
-                    </div>
-
-                    <div className="details-btn">
-                      <Link href="/blog-details">
-                        <a>
-                          <i className="bx bx-right-arrow-alt"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            {/* Pagination */}
-            {/* <div className="col-lg-12 col-md-12">
-                            <div className="pagination-area">
-                                <Link href="/blog/#">
-                                    <a className="prev page-numbers">
-                                        <i className='bx bxs-arrow-to-left'></i>
-                                    </a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="page-numbers">1</a>
-                                </Link>
-
-                                <span className="page-numbers current">2</span>
-
-                                <Link href="/blog/#">
-                                    <a className="page-numbers">3</a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="page-numbers">4</a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="next page-numbers">
-                                        <i className='bx bxs-arrow-to-right'></i>
-                                    </a>
-                                </Link>
-                            </div>
-                        </div> */}
           </div>
+          <Pagination
+            count={Math.ceil(sortedBlogs.length / blogsPerPage)}
+            showFirstButton
+            showLastButton
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              mt: 3,
+
+              ".MuiPagination-ul": {
+                listStyle: "none",
+                padding: 0,
+                margin: 0,
+                display: "flex",
+
+                ".MuiPaginationItem-root": {
+                  margin: "0 4px",
+                  fontSize: 16,
+                  borderRadius: "4px",
+
+                  "&.Mui-selected": {
+                    backgroundColor: "#35b4ab",
+                    color: "#fff",
+                  },
+
+                  "&:hover": {
+                    backgroundColor: "#e3f2fd",
+                  },
+                },
+              },
+            }}
+            size="large"
+            page={currentPage}
+            onChange={(e, page) => {
+              this.setState({ currentPage: page });
+            }}
+          />
         </div>
       </section>
     );

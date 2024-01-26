@@ -554,3 +554,8 @@ export const blogs = [
     },
   },
 ];
+export const sortedBlogs = [...blogs].sort((a, b) => {
+  const dateA = new Date(a.written_on);
+  const dateB = new Date(b.written_on);
+  return dateB - dateA;
+});

@@ -77,7 +77,9 @@ const BlogDetailsContent = ({
               <div className="article-footer">
                 <div className="article-tags">
                   {blogContent?.hashtags?.map((hashtag, index) => (
-                    <a key={index}>#{hashtag}</a>
+                    <a style={{ marginBottom: 8 }} key={index}>
+                      #{hashtag}
+                    </a>
                   ))}
                 </div>
               </div>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import { blogs } from "../blogs";
+import { sortedBlogs } from "../blogs";
 
 class BlogPostStyleOne extends Component {
   render() {
@@ -11,7 +11,7 @@ class BlogPostStyleOne extends Component {
             <h2>Our Popular Blogs</h2>
           </div>
           <div className="row">
-            {blogs.map((blog) => {
+            {sortedBlogs.slice(0, 3).map((blog) => {
               return (
                 <Link
                   key={blog.id}
@@ -86,13 +86,17 @@ class BlogPostStyleOne extends Component {
 
           <div className="col-lg-12 col-md-12">
             <div className="blog-notes">
-              <p>
+              <h5>
                 Insights to help you do what you do better, faster and more
                 profitably.{" "}
-                <Link href="/blog">
-                  <a>read full blog</a>
-                </Link>
-              </p>
+              </h5>
+
+              <Link href="/blog">
+                <a className="default-btn" style={{ marginTop: 12 }}>
+                  Checkout All Blogs
+                  <span></span>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
