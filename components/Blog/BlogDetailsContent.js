@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import BlogSidebar from "./BlogSidebar";
-import { Button, Radio, Stack, Typography } from "@mui/material";
+import { Box, Button, Radio, Stack, Typography } from "@mui/material";
 import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ThumbDownOutlinedIcon from "@mui/icons-material/ThumbDownOutlined";
@@ -197,7 +197,10 @@ const BlogDetailsContent = ({
 
         {/* bottom promotion banner */}
         <Stack sx={{ mt: 4 }}>
-          <div className="widget widget_tag_cloud">
+          <div
+            className="widget widget_tag_cloud"
+            style={{ display: "flex", flexDirection: "column", gap: 10 }}
+          >
             <h3 className="widget-title">
               <Link href="/">
                 <a
@@ -213,12 +216,16 @@ const BlogDetailsContent = ({
               Solutions{" "}
             </h3>
 
-            <div
+            <Box
               className="tagcloud"
-              style={{
+              sx={{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                textAlign: "center",
+                "@media (max-width: 768px)": {
+                  flexWrap: "wrap",
+                },
               }}
             >
               <img
@@ -234,7 +241,7 @@ const BlogDetailsContent = ({
                 </Link>{" "}
                 for your next product development.
               </Typography>
-            </div>
+            </Box>
             <Link href="/about">
               <Button
                 variant="contained"
