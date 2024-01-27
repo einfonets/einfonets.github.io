@@ -213,7 +213,14 @@ const BlogDetailsContent = ({
               Solutions{" "}
             </h3>
 
-            <div className="tagcloud">
+            <div
+              className="tagcloud"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               <img
                 src="https://media.istockphoto.com/id/1264382760/vector/people-rate-online-vector-illustration-cartoon-flat-customer-characters-leave-positive.jpg?s=612x612&w=0&k=20&c=z0gGeas6MR9yBVBdJTQvIAWpnzA5BjM3_JYX0_SpEhY="
                 alt="image"
@@ -227,24 +234,22 @@ const BlogDetailsContent = ({
                 </Link>{" "}
                 for your next product development.
               </Typography>
-              <br />
-              <br />
-              <Link href="/about">
-                <Button
-                  variant="contained"
-                  sx={{
-                    display: "flex",
-                    margin: "auto",
-                    background: "#ff612f",
-                    "&:hover": {
-                      background: "#29a59e",
-                    },
-                  }}
-                >
-                  Learn More
-                </Button>
-              </Link>
             </div>
+            <Link href="/about">
+              <Button
+                variant="contained"
+                sx={{
+                  display: "flex",
+                  margin: "auto",
+                  background: "#ff612f",
+                  "&:hover": {
+                    background: "#29a59e",
+                  },
+                }}
+              >
+                Learn More
+              </Button>
+            </Link>
           </div>
         </Stack>
 
