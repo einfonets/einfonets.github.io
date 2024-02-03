@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import { Stack } from "@mui/material";
 
 class Footer extends Component {
   render() {
@@ -144,12 +145,33 @@ class Footer extends Component {
                   </li>
                 </ul>
               </div>
-              <iframe
-                width="150"
-                height="150"
-                src="https://shareables.clutch.co/share/badges/2125539/40711?utm_source=clutch_top_company_badge&utm_medium=image_embed"
-                title="Top Clutch Genexus Development Ahmedabad 2024"
-              ></iframe>
+
+              <Stack
+                direction={"row"}
+                alignItems={"center"}
+                flexWrap={"wrap"}
+                my={2}
+              >
+                <iframe
+                  width="150"
+                  height="150"
+                  src="https://shareables.clutch.co/share/badges/2125539/40711?utm_source=clutch_top_company_badge&utm_medium=image_embed"
+                  title="Top Clutch Genexus Development Ahmedabad 2024"
+                ></iframe>
+                <div>
+                  <a
+                    href="https://businessfirms.co/company/einfonets-technologies"
+                    target="_blank"
+                  >
+                    <img
+                      height="140"
+                      width="140"
+                      alt="company widget"
+                      src="https://businessfirms.co/images/bfirms-certified.png"
+                    />
+                  </a>
+                </div>
+              </Stack>
               <div
                 className="clutch-widget"
                 data-url="https://widget.clutch.co"
