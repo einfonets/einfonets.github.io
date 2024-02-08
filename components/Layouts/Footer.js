@@ -117,16 +117,6 @@ class Footer extends Component {
                 </ul>
 
                 <ul className="social">
-                  {/* <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <i className="bx bxl-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i className="bx bxl-twitter"></i>
-                    </a>
-                  </li> */}
                   <li>
                     <a
                       href="https://www.linkedin.com/company/einfonets-technologies/"
