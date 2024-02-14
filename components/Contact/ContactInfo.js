@@ -8,7 +8,7 @@ class ContactInfo extends Component {
           <h3>Contact us by Phone Number or Email Address</h3>
 
           <h2>
-            <span className="number">+91 8320051094</span>
+            <span className="number">+91 7016547685</span>
             <span className="or">OR</span>
             <span className="email">info@einfonets.com</span>
           </h2>
