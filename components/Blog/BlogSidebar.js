@@ -16,7 +16,7 @@ const BlogSidebar = () => {
     .sort((a, b) => b.written_on - a.written_on);
 
   // Get the last 3 blogs from the sorted array
-  const popularBlogs = sortedBlogs.slice(0, 3);
+  const popularBlogs = sortedBlogs.slice(1, 4);
 
   return (
     <div
