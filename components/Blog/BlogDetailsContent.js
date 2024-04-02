@@ -46,7 +46,12 @@ const BlogDetailsContent = ({
           <div className="col-lg-8 col-md-12">
             <div className="blog-details-desc">
               <div className="article-image">
-                <img src={blogContent?.title_img} alt="image" />
+                <img
+                  src={blogContent?.title_img}
+                  alt="image"
+                  width={"100%"}
+                  style={{ objectFit: "cover" }}
+                />
               </div>
               <div className="article-content">
                 <div className="entry-meta">
