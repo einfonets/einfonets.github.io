@@ -963,10 +963,14 @@ export const blogs = [
         <h2 style="font-size: 1.5em; margin-bottom: 15px;">6. Offscreen (renamed to Activity)</h2>
         <p style="margin-bottom: 15px;">Previously known as Offscreen, the Activity feature is undergoing research to refine its functionality and working towards creating a more dynamic and responsive user experience. Stay tuned for more updates!</p>
         
-        <h3 style="font-size: 1.5em; margin-bottom: 15px;">You can read more about React 19
+        <h3 style="font-size: 1em; margin-bottom: 15px;">You can read more about React 19
             <a href="https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024">
               here!
             </a></h3>
+
+<h2 style="font-size: 1.5em; margin-bottom: 15px;">Conclusion</h2>
+        <p style="margin-bottom: 15px;">The new React 19's update introduces compelling features such as the compiler and server actions, which have the potential to streamline development processes. This may impact the relevance of additional frameworks like NextJS. As React 19 continues to evolve, we remain committed to providing thorough coverage and insights. Keep abreast of our updates as we delve deeper into more React 19's features.</p>
+
 
         <h2 style="font-size: 1.2em; margin-bottom: 15px;">
         For professional assistance in creating modern web applications that are based on React 19 latest features do consider connecting with <a href="https://www.einfonets.com">einfonets</a>. <a href="https://www.einfonets.com">einfonets</a> specializes in creating modern day web applications that are up to date with the latest trends.
