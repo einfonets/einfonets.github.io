@@ -119,7 +119,7 @@ class Footer extends Component {
                 <ul className="social">
                   <li>
                     <a
-                      href="https://www.linkedin.com/company/einfonets-technologies/"
+                      href="https://www.linkedin.com/company/einfonets-technologies"
                       target="_blank"
                     >
                       <i className="bx bxl-linkedin"></i>
@@ -127,10 +127,15 @@ class Footer extends Component {
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/einfonets/"
+                      href="https://www.instagram.com/einfonets"
                       target="_blank"
                     >
                       <i className="bx bxl-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://wa.me/+917016547685" target="_blank">
+                      <i className="bx bxl-whatsapp"></i>
                     </a>
                   </li>
                 </ul>
