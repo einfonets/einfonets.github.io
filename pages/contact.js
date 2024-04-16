@@ -4,6 +4,7 @@ import PageTitleArea from "../components/Common/PageTitleArea";
 import ContactFormArea from "../components/Contact/ContactFormArea";
 import OurLovingClients from "../components/Common/OurLovingClients";
 import Footer from "../components/Layouts/Footer";
+import SubscribeStyleOne from "../components/Common/SubscribeStyleOne";
 
 class Contact extends Component {
   render() {
@@ -19,6 +20,8 @@ class Contact extends Component {
         <ContactFormArea />
 
         <OurLovingClients />
+
+        <SubscribeStyleOne />
 
         <Footer />
       </>

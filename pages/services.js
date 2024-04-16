@@ -4,7 +4,7 @@ import PageTitleArea from "../components/Common/PageTitleArea";
 import ServicesStyleTwo from "../components/Services/ServicesStyleTwo";
 import ClientsFeedbackSliderTwo from "../components/Common/ClientsFeedbackSliderTwo";
 import WhyChooseUs from "../components/Common/WhyChooseUs";
-import SubscribeStyleTwo from "../components/Common/SubscribeStyleTwo";
+import SubscribeStyleOne from "../components/Common/SubscribeStyleOne";
 import OurLovingClients from "../components/Common/OurLovingClients";
 import Footer from "../components/Layouts/Footer";
 
@@ -22,7 +22,7 @@ class Services2 extends Component {
 
         <WhyChooseUs />
 
-        <SubscribeStyleTwo />
+        <SubscribeStyleOne />
 
         <OurLovingClients />
 
