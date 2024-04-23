@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { Component } from "react";
 import {
   Accordion,
@@ -46,10 +47,11 @@ class FaqContent extends Component {
                     <AccordionItemPanel>
                       <p>
                         Our team consists of highly skilled professionals with
-                        years of experience in various IT domains. Our
-                        developers, designers, marketers, and consultants are
-                        dedicated to delivering top-notch solutions that meet
-                        your business goals.
+                        3+ years of experience in various IT domains and 2 x
+                        Netty Awards nominee in Design category. Our developers,
+                        designers, marketers, and consultants are dedicated to
+                        delivering top-notch solutions that meet your business
+                        goals.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -66,13 +68,22 @@ class FaqContent extends Component {
                         <br />
                         <ul>
                           <li>
-                            Web Development: We create dynamic and user-friendly
-                            websites tailored to your business needs.
+                            Custom Software and Product Development: Tailored
+                            solutions designed to address your unique
+                            requirements and propel your business forward.
                           </li>
                           <li>
-                            Mobile App Development: Our team develops custom
-                            mobile apps for various platforms, enhancing your
-                            reach and engagement.
+                            Web & Mobile App Development: We create dynamic and
+                            user-friendly websites tailored to your business
+                            needs and our team develops custom mobile apps for
+                            various platforms, enhancing your reach and
+                            engagement.
+                          </li>
+                          <li>
+                            Graphics, UI/UX, and Web Designing: Elevate your
+                            brand with captivating graphics, intuitive user
+                            interfaces, and stunning web designs that leave a
+                            lasting impression.
                           </li>
                           <li>
                             Digital Marketing: We offer digital marketing
@@ -80,9 +91,18 @@ class FaqContent extends Component {
                             traffic, and boost conversions.
                           </li>
                           <li>
-                            IT Consulting: Our experts provide valuable insights
-                            and guidance to optimize your IT infrastructure and
-                            operations.
+                            Application Modernization: Transform outdated
+                            systems into agile, scalable platforms, leveraging
+                            the latest technologies to enhance performance and
+                            efficiency.
+                          </li>
+                          <li>
+                            IT Consulting, Support & Services: Our experts
+                            provide valuable insights and guidance to optimize
+                            your IT infrastructure and operations. We ensure
+                            reliable support and services to optimize your IT
+                            infrastructure, ensuring seamless operations and
+                            maximum productivity.
                           </li>
                         </ul>
                       </p>
@@ -115,12 +135,14 @@ class FaqContent extends Component {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Getting a quote is easy! Simply visit our "Contact" page
-                        on our website (www.einfonets.com/contact) and fill out
-                        the form with your project details. Our team will review
-                        your requirements and get back to you with a customized
-                        quote promptly or you can directly get in touch with us
-                        via{" "}
+                        Getting a quote is easy! Simply visit our{" "}
+                        <Link href="/contact">
+                          <a>Contact Us</a>
+                        </Link>{" "}
+                        page on our website and fill out the form with your
+                        project details. Our team will review your requirements
+                        and get back to you with a customized quote promptly or
+                        you can directly get in touch with us via{" "}
                         <a href="mailto:info@einfonets.com">
                           info@einfonets.com
                         </a>
@@ -154,10 +176,13 @@ class FaqContent extends Component {
                     <AccordionItemPanel>
                       <p>
                         You can stay informed about our latest developments,
-                        industry insights, and company news by visiting our
-                        "Blog" section on our website (www.einfonets.com/blog).
-                        We regularly update it with valuable content to keep you
-                        in the loop.
+                        industry insights, and company news by visiting our{" "}
+                        <Link href="/blog">
+                          <a>Blogs</a>
+                        </Link>{" "}
+                        section. We regularly update it with valuable content to
+                        keep you in the loop. Also subscribe to our newsletter
+                        to get updates on all the new hot topics in tech.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
