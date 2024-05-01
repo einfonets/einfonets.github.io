@@ -75,6 +75,11 @@ export default function Featured() {
             name: "Flutter",
             logo: "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
           },
+          {
+            name: "GraphQl",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/800px-GraphQL_Logo.svg.png",
+          },
+          
         ],
         dialogImg:
           "https://www.upwork.com/att/download/portfolio/persons/uid/1697294443237502976/profile/projects/files/62588a42-92df-4299-ae4b-d861f8a1b416",
