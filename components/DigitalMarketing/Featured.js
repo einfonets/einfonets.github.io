@@ -79,7 +79,7 @@ export default function Featured() {
         dialogImg:
           "https://www.upwork.com/att/download/portfolio/persons/uid/1697294443237502976/profile/projects/files/62588a42-92df-4299-ae4b-d861f8a1b416",
         dialogDetails:
-          "Chatto is einfonets own inventions. A contemporary web application blending Next.js and MySQL for effortless communication. From instant messaging to AI features, Chatto redefines online interaction.  It provides users with seamless messaging capabilities and advanced AI features, enhancing their online interactions. Through its intuitive interface and robust backend infrastructure, Chatto offers a reliable platform for effective communication and collaboration in various contexts.",
+          "Chatto is einfonets own invention. A contemporary web application blending Next.js and MySQL for effortless communication. From instant messaging to AI features, Chatto redefines online interaction.  It provides users with seamless messaging capabilities and advanced AI features, enhancing their online interactions. Through its intuitive interface and robust backend infrastructure, Chatto offers a reliable platform for effective communication and collaboration in various contexts.",
       },
     },
     {
