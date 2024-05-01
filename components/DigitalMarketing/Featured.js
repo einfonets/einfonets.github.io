@@ -33,6 +33,56 @@ export default function Featured() {
   ];
   const ClientDetails = [
     {
+      tagLine: "Revolutionalizing the way people interact online with Chatto",
+      titleImg:
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1697294443237502976/profile/projects/files/62588a42-92df-4299-ae4b-d861f8a1b416",
+      dialogData: {
+        title: "Product Chatto",
+        techstack: [
+          {
+            name: "Next.JS",
+            logo: "https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg",
+          },
+          {
+            name: "PWA",
+            logo: "https://felipemateus.com/wp-content/uploads/2022/03/pwa-logo.png",
+          },
+          {
+            name: "MySql",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Database-mysql.svg/1448px-Database-mysql.svg.png",
+          },
+          {
+            name: "Sequelize",
+            logo: "https://pbs.twimg.com/profile_images/1509802359383367691/R0psIpR4_400x400.jpg",
+          },
+          {
+            name: "Electron",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png",
+          },
+          {
+            name: "CI/CD",
+            logo: "https://d1.awsstatic.com/Projects/CI_CD_Pipeline_HERO-ART_SM.42db75e47b4d32ad3b6e37865fcb52de7de1beec.png",
+          },
+          {
+            name: "Vercel Cloud Compute",
+            logo: "https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png",
+          },
+          {
+            name: "Webflow",
+            logo: "https://yt3.googleusercontent.com/sY8Sgkv2msaC_iVJQ3tf1U5ybIqkuZMWH9nilQUQt0n9192f7J57JkCwOsr5pn91Z0q4UNKyLA=s900-c-k-c0x00ffffff-no-rj",
+          },
+          {
+            name: "Flutter",
+            logo: "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+          },
+        ],
+        dialogImg:
+          "https://www.upwork.com/att/download/portfolio/persons/uid/1697294443237502976/profile/projects/files/62588a42-92df-4299-ae4b-d861f8a1b416",
+        dialogDetails:
+          "Chatto is einfonets own inventions. A contemporary web application blending Next.js and MySQL for effortless communication. From instant messaging to AI features, Chatto redefines online interaction.  It provides users with seamless messaging capabilities and advanced AI features, enhancing their online interactions. Through its intuitive interface and robust backend infrastructure, Chatto offers a reliable platform for effective communication and collaboration in various contexts.",
+      },
+    },
+    {
       tagLine: "Reinventing ways of doing things with on2cook",
       titleImg:
         "data:image/png;base64,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",
