@@ -923,7 +923,7 @@ export const blogs = [
             manual memoization is a compromise. It clutters up our code, is easy
             to get wrong, and requires extra work to keep up to date.</p>
             
-        <p style="margin-bottom: 15px;">You can see the new compiler in action{" "}
+        <p style="margin-bottom: 15px;">You can see the new compiler in action 
             <a href="https://www.youtube.com/watch?v=qOQClO3g8-Y">here</a> which
             the team showcased in last fall.</p>
         
@@ -978,6 +978,498 @@ export const blogs = [
     </article>
     <footer style="text-align: center; background-color: #f4f4f4; padding: 20px;">
         <p>For more information about einfonets and our modern web app development services, visit <a href="https://www.einfonets.com">www.einfonets.com</a></p>
+        <p>Contact us: <a href="mailto:info@einfonets.com">info@einfonets.com</a> | +91 7016547685</p>
+    </footer>
+    `,
+    },
+  },
+  {
+    id: "bd5fb310-55f6-4fea-b047-091f739b5cc8",
+    title: "9 best tools, extensions and platforms needed by every sales team",
+    written_on: "May 13, 2024",
+    written_by: "Janmey Solanki",
+    blog_cover_img:
+      "/images/blog/bd5fb310-55f6-4fea-b047-091f739b5cc8_cover_img.png",
+    read_time: "10",
+    blog_details: {
+      title_img:
+        "/images/blog/bd5fb310-55f6-4fea-b047-091f739b5cc8_title_img.png",
+      hashtags: [
+        "einfonets",
+        "innovate",
+        "elevate",
+        "dominate",
+        "sales",
+        "revenue",
+        "ROI",
+        "sales tools",
+        "sales extensions",
+        "sales platforms",
+        "B2B DB",
+      ],
+      page_content: ` <header>
+        <h2 style="font-size: 1.5em; margin-bottom: 15px; margin-top:30px;">9 best tools, extensions and platforms needed by every sales team</h2>
+        <p style="margin-bottom: 15px;">Today we are going to talk about the 9 best tools and extensions that every sales team must have and use on a daily basis. These tools and extensions can help you boost productivity, streamline processes, and ultimately drive more revenue. These tools and extensions can help you find new prospect leads, find details of the prospect leads from various sources such as LinkedIn, manage customer relationships, or close deals.</p>
+    </header>
+    <h2>Outline</h2>
+      <ol>
+        <li>
+          <a href="#hunter">Hunter</a>
+        </li>
+
+        <li>
+          <a href="#agile-crm">Agile CRM</a>
+        </li>
+
+        <li>
+          <a href="#discover">Discover org sales intelligence</a>
+        </li>
+
+        <li>
+          <a href="#yesware">Yesware</a>
+        </li>
+
+        <li>
+          <a href="#apollo-io">Apollo.io</a>
+        </li>
+
+        <li>
+          <a href="#closely">Closely</a>
+        </li>
+
+        <li>
+          <a href="#salesql">SalesQL</a>
+        </li>
+
+        <li>
+          <a href="#crystal">Crystal</a>
+        </li>
+
+        <li>
+          <a href="#linkout">LinkOut</a>
+        </li>
+      </ol>
+      <br/>
+      <br/>
+      <section id="hunter">
+        <h2>
+          <a href="https://hunter.io">Hunter</a> (Free plan available)
+        </h2>
+        <p>
+          Hunter is a all in one platform that helps you at all the stages from
+          reaching out people to connecting with professionals. Some of the
+          services it provides are:
+          <ul>
+            <li>
+              <h5>
+                <a href="https://hunter.io/b2b-database">Hunter Discover</a>
+              </h5>
+              <p>
+                A B2B database where you can identify relevant leads based on
+                your ideal customer profile. <br />
+                <br />
+                Company Discovery lets you filter by: <br />
+                Headquarters location <br />
+                Industry (you can choose from among 487 industries)
+                <br /> Headcount
+                <br /> Keywords (a very flexible way to search – each company in
+                Hunter Discover is indexed with multiple keywords)
+                <br /> and technologies used.
+                <br />
+                <br /> Use these filters to find companies that align with your
+                ideal customer profile, then find the associated email addresses
+                using the Domain Search.
+              </p>
+            </li>
+            <li>
+              <h5>
+                <a href="https://hunter.io/domain-search">
+                  Hunter Domain Search
+                </a>
+              </h5>
+              <p>
+                Find the best person to contact from a company name or website.
+                The Domain Search is perfect for quickly finding out who to
+                contact within a company. It surfaces publicly available email
+                addresses with confidence scores, department filters, and
+                detailed sources in just half a second.
+              </p>
+            </li>
+            <li>
+              <h5>
+                <a href="https://hunter.io/domain-search">
+                  Hunter Email Finder
+                </a>
+              </h5>
+              <p>
+                Type a name, get a verified email address. The high match rate
+                will help you get the most from your lists. The Email Finder is
+                all you need to connect with any professional. It puts all our
+                data together — email formats, email addresses found on the web,
+                and verification status — to find reliable contact information
+                in seconds.
+              </p>
+            </li>
+            <li>
+              <h5>
+                <a href="https://hunter.io/email-verifier">
+                  Hunter Email Verifier
+                </a>
+              </h5>
+              <p>
+                The verifier helps you in avoiding bounces and protect your
+                sender reputation.
+              </p>
+            </li>
+            Along with these you can create campaigns and automations for cold
+            emailing. All this available in the form of chrome extension as well
+            you <a href="https://hunter.io/chrome">find</a> here.
+          </ul>
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="agile-crm">
+        <h2>
+          <a href="https://www.agilecrm.com">Agile CRM</a> (Free plan available)
+        </h2>
+
+        <p>
+          Agile CRM does three things at the same time. Sales Enablement +
+          Marketing Automation + Customer Service. The main three features of
+          Agile CRM are:
+          <ul>
+            <li>
+              <h5> A All-in-One CRM platform</h5>
+              <p>
+                It helps you in automating, sales, marketing and service from
+                one platform. While maintaining consistent and robust messaging
+                and avoiding data leaks. It has 500 apps for managing all the
+                workflows and streamlining process
+              </p>
+            </li>
+            <li>
+              <h5>Affordable</h5>
+              <p>
+                Make the most of Agile's modern features & integrations, easy
+                implementation and great support at an affordable price.
+              </p>
+            </li>
+            <li>
+              <h5>Modern Architecture</h5>
+              <p>
+                Cloud based SaaS service that is mobile-ready, fast, and simple
+                to use.
+              </p>
+            </li>
+          </ul>
+          It has has a chrome extension that helps you with: Lead Capturing,
+          Email and link tracking with notifications, Track upcoming tasks, Add
+          and manage all Leads, Tasks and Deals, Search Contacts, and most
+          widely used Email Templates for cold emailing & Tracking. You can
+          checkout the extension 
+          <a href="https://www.agilecrm.com/chrome-extension">here</a>.
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="discover">
+        <h2>
+          <a href="https://discoverorg.com">Discover Org</a> (Trial available,
+          Pricing not disclosed)
+        </h2>
+        <p>
+          DiscoverOrg is one more platform where you can find B2B database. It
+          helps you with driving sales efficiently and effectively, increase
+          leads and pipleline, manage clean and enriching data, boost sales and
+          teams productivity. It is only a three step process.
+          <ul>
+            <li>
+              <h5>Defining your market</h5>
+              <p>
+                Create your buyer and account profiles to align sales and
+                marketing efforts and enable ABM.
+              </p>
+            </li>
+            <li>
+              <h5>Identifying Top Targets</h5>
+              <p>
+                Find vital decision makers and accounts that fit to your
+                Customer Profile with a few clicks.
+              </p>
+            </li>
+            <li>
+              <h5>Prioritize and Predict</h5>
+              <p>
+                Identify, score and rank opportunities by ideal fit and
+                prosperity to buy
+              </p>
+            </li>
+          </ul>
+          You can take benefit of all this with their extension as well on the
+          go providing Instant Access to the Most Accurate Prospect Intelligence
+          While Browsing the Web. It works on (1) a LinkedIn or Twitter profile,
+          (2) a company website, (3) Salesforce.com accounts and contact
+          records, or (4) any webpage with a company or contact name. Checkit
+          out 
+          <a href="https://chromewebstore.google.com/detail/discoverorg-sales-intelli/jdanmmkadklcdnmmhodecjodjljkekja?pli=1">
+            here
+          </a>
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="yesware">
+        <h2>
+          <a href="https://www.yesware.com">Yesware by Vendasta</a> (Free plan
+          available)
+        </h2>
+        <p>
+          Yesware is a go to tool for email campaining, automation and tracking.
+          The benefit of yesware is that it works in your Gmail, Outlook inbox
+          only rather then having any other external interface or interation
+          streamling your processes. Know which emails are working. Know when
+          leads are interested. Know how much follow up to do. Yesware offers a
+          robust set of tools for your sales team to track email outreach
+          activity, rapidly test what does and doesn't work, and share it all
+          with your team to drive better results, faster. Works only in five
+          steps:
+          <ul>
+            <li>
+              Install Yesware for Outlook or Gmail and integrate your favorite
+              apps
+            </li>
+            <li>
+              Know when recipients read your emails, click on links, or view
+              attachments
+            </li>
+            <li>
+              Save top-performing emails as templates your whole team can re-use
+            </li>
+            <li>Schedule meetings without the back-and-forth emails</li>
+            <li>Data on what's working = more closed-won</li>
+          </ul>
+          Yesware has a dozen more tools which can help you reach more leads and
+          increase sales. Some of the most widely used tools are:
+          <ul>
+            <li>Email Tracking</li>
+            <li>Multichannel Campaigns</li>
+            <li>Email Templates and Meeting Scheduler</li>
+          </ul>
+          Check out all of the tools 
+          <a href="https://www.yesware.com/feature">here</a> .
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="apollo-io">
+        <h2>
+          <a href="https://www.apollo.io">Apollo.io</a> (Free plan available)
+        </h2>
+        <p>
+          Apollo.io has a B2B database fueled with the most accurate data on
+          275M contacts and 73M companies powered by their proprietary LIVING
+          DATA NETWORK which has about 2 Million contributors and 650 Million
+          touchpoints. There are four main keypoints that will lead to sales
+          growth according to Apollo:
+          <h5>Build Pipeline</h5>
+          <ul>
+            <li>
+              Contacts and Account Search: Find the Right Leads and Companies
+            </li>
+            <li>Scores and Signals: Reach out to right leads</li>
+            <li>Inbound Optimization: Shorten forms & better qualify leads</li>
+            <li>Sales Engagement: Automate your outbound</li>
+          </ul>
+          <h5>Close Deals</h5>
+          <ul>
+            <li>Meetings: Prepare for, book & follow up on meetings</li>
+            <li>
+              Deal Management: Close deals with insights and recommendations
+            </li>
+            <li>
+              Conversation Intelligence: Track, Record, & Analyze conversations
+            </li>
+          </ul>
+          <h5>Improve Performance</h5>
+          <ul>
+            <li>Analytics: See what's working & where to improve</li>
+            <li>Coaching: Give your team actionable feedbacks</li>
+          </ul>
+          <h5>Stramline Operations</h5>
+          <ul>
+            <li>Workflow engine: Automate tasks and move faster on leads</li>
+            <li>Enrich & Cleanse: Automatically sync and enrich your CRM.</li>
+          </ul>
+          According to Apollo a million users have joined Apollo.io last year
+          and is the fastest growing and most loved sales technology. You can do
+          all these along with there extension as well. Find it 
+          <a href="https://chromewebstore.google.com/detail/apolloio-free-b2b-phone-n/alhgpfoeiimagjlnfekdhkjlkiomcapa?pli=1">
+            here
+          </a>
+          .
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="closely">
+        <h2>
+          <a href="https://closelyhq.com">Closely</a> (Paid)
+        </h2>
+        <p>
+          Next on the list we have Closely. If your main focus is on Linkedin
+          Closely would be your way to go. Closely provides Multichannel
+          automation campaigns which can be really helpful for simplifying and
+          streamlining your intercations. Closely helps by saving about 40 hours
+          , 7x times cheaper, and a decrease of 50% from prospecting to demo.
+          Closely provides:
+          <ul>
+            <li>
+              <h5>Appoint</h5>
+              <p>
+                Organize meetings with potential prospects via Closely Appoint.
+              </p>
+            </li>
+            <li>
+              <h5>Scanlist</h5>
+              <p>
+                A marketing assistant that scans your business contacts, writes
+                personalized message sequences and creates outstanding marketing
+                copies that are faster than other human AIs.
+              </p>
+            </li>
+            <li>
+              <h5>Lead Finder</h5>
+              <p>
+                Closely has a B2B contact database with about 132 million
+                records so you can find your business contacts quickly and
+                easily.
+              </p>
+            </li>
+            <li>
+              <h5>Linkedin Scraper</h5>
+              <p>
+                A Chrome Extension that helps with scanning profiles and
+                directly exporting all the gathered data.
+              </p>
+            </li>
+            <li>Linkedin Email Extractor</li>
+            <p>
+              Helps finding emails for any leads found on Linkedin, single or in
+              bulk.
+            </p>
+            Try out all the features along with the Closely extension as well 
+            <a href="https://chromewebstore.google.com/detail/closely-email-finder-li-d/gdhhcapaofinjmlambmbfhkicbpmidbn">
+              here
+            </a>
+            .
+          </ul>
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="salesql">
+        <h2>
+          <a href="https://salesql.com">SalesQL</a> (Free plan available)
+        </h2>
+        <p>
+          SalesQL is another platform that provides tools and extension that are
+          focused on Linkedin prospecting. SalesQL lets you establish a fast and
+          direct connection with your leads, contacts, and candidates, by
+          finding their key contact details with one click. You can use SalesQL
+          to see source email address of your Linkedin targets even if you
+          haven't connected with them yet. SalesQL provides extensions for both
+          Chrome and Microsoft Edge.
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="crystal">
+        <h2>
+          <a href="https://www.crystalknows.com/">Crystal</a> (Free plan
+          available)
+        </h2>
+        <p>
+          Crystal (also known as Crystal Knows) helps sales reps communicate
+          effectively with any buyer, based on their unique personality,
+          motivations, and communication style. Crystal gives rich personality
+          data and tools to deeply understand themselves, their colleagues, and
+          their customers. Crystal provides Accurate personality data for every
+          business professional via AI Analysis (Predictive analysis of publicly
+          available data points that correlate with personality) and DISC
+          Assessment (Proprietary, anonymized personality assessment results).
+          <h5>In Linkedin and CRM</h5>
+          <ul>
+            <li>Predict anyone's personality of anyone with one click.</li>
+            <li>Get personalized insights for calls, meetings, and demos.</li>
+            <li>Build playbooks for every stage of the sales process.</li>
+          </ul>
+          <h5>In Gmail and Outlook</h5>
+          <ul>
+            <li>
+              Automatically check the words, phrases, style, and tone of emails
+              in real time.
+            </li>
+            <li>
+              Optimize your greetings, calls-to-action, descriptions, value
+              propositions, questions, sign-offs, and other sentences for each
+              buyer personality type.
+            </li>
+          </ul>
+          Check out the extension 
+          <a href="https://chromewebstore.google.com/detail/crystal/nmaonghoefpmlfgaknnboiekjhfpmajh?hl=en">
+            here
+          </a>
+          .
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="linkout">
+        <h2>
+          <a
+            href="https://chromewebstore.google.com
+          /detail/linkout/ecdkbgmolfbemfanejfloiihpppchlep"
+          >
+            LinkOut
+          </a>
+          (Free plan available)
+        </h2>
+
+        <p>
+          LinkOut helps you create Personalized LinkedIn Cold Messages in a
+          Click. You can just visit a Linked-In profile and click the LinkOut
+          extension in your browser to receive a personalized cold message that
+          significantly increases the likelihood of getting a connect. You can
+          checkout the extension 
+          <a
+            href="https://chromewebstore.google.com
+          /detail/linkout/ecdkbgmolfbemfanejfloiihpppchlep"
+          >
+            here
+          </a>
+          .
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <h4>
+        To conclude, any individual, group, team or firm can take benefit of
+        these tools to increase their ROR as well as find prospect leads faster,
+        and are genuine. From lead generation to email campaigns, they offer
+        comprehensive solutions to streamline processes and boost productivity.
+        With options for every budget, integrating these tools is essential for
+        staying competitive in today's digital sales environment.
+      </h4>
+      <br/>
+      <br/>
+        <h2 style="font-size: 1.2em; margin-bottom: 15px;">
+        For professional assistance on how to increase your sales and ROI do consider connecting with <a href="https://www.einfonets.com">einfonets</a>. <a href="https://www.einfonets.com">einfonets</a> specializes in helping customers increase their sales and revenue with modern methodologies and techniques.
+        </h2>
+      <br/>
+      <br/>
+    <footer style="text-align: center; background-color: #f4f4f4; padding: 20px;">
+        <p>For more information about einfonets and our modern ways to increase sales and revenue, visit <a href="https://www.einfonets.com">www.einfonets.com</a></p>
         <p>Contact us: <a href="mailto:info@einfonets.com">info@einfonets.com</a> | +91 7016547685</p>
     </footer>
     `,
