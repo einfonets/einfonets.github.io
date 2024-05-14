@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Snackbar from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
+import { Typography } from "@mui/material";
 export default function SubscribeStyleOne() {
   const [email, setEmail] = useState("");
   const [response, setResponse] = useState();
@@ -57,6 +58,31 @@ export default function SubscribeStyleOne() {
             <button type="submit">
               <i className="bx bxs-hot"></i> Subscribe Now
             </button>
+          </div>
+          <div className="d-flex flex-column justify-content-center align-items-center">
+            <Typography sx={{ color: "white", my: 2 }}>OR</Typography>
+            <a
+              href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7196024017433116672"
+              target="_blank"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center",
+                outline: "none",
+                textDecoration: "none",
+                color: "#ffffff",
+                height: 50,
+                width: "100%",
+                borderRadius: 16,
+                backgroundColor: "#0A66C2",
+                gap: 4,
+                maxWidth: 600,
+              }}
+            >
+              <i className="bx bxl-linkedin"></i>
+              Subscribe on LinkedIn
+            </a>
           </div>
         </div>
       </form>
