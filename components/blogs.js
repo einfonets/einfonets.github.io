@@ -1053,7 +1053,7 @@ export const blogs = [
       <br/>
       <section id="hunter">
         <h2>
-          <a href="https://hunter.io">Hunter</a> (Free plan available)
+          <a href="https://hunter.io" target="_blank">Hunter</a> (Free plan available)
         </h2>
         <p>
           Hunter is a all in one platform that helps you at all the stages from
@@ -1062,7 +1062,7 @@ export const blogs = [
           <ul>
             <li>
               <h5>
-                <a href="https://hunter.io/b2b-database">Hunter Discover</a>
+                <a href="https://hunter.io/b2b-database" target="_blank">Hunter Discover</a>
               </h5>
               <p>
                 A B2B database where you can identify relevant leads based on
@@ -1083,7 +1083,7 @@ export const blogs = [
             </li>
             <li>
               <h5>
-                <a href="https://hunter.io/domain-search">
+                <a href="https://hunter.io/domain-search" target="_blank">
                   Hunter Domain Search
                 </a>
               </h5>
@@ -1097,7 +1097,7 @@ export const blogs = [
             </li>
             <li>
               <h5>
-                <a href="https://hunter.io/domain-search">
+                <a href="https://hunter.io/domain-search" target="_blank">
                   Hunter Email Finder
                 </a>
               </h5>
@@ -1112,7 +1112,7 @@ export const blogs = [
             </li>
             <li>
               <h5>
-                <a href="https://hunter.io/email-verifier">
+                <a href="https://hunter.io/email-verifier" target="_blank">
                   Hunter Email Verifier
                 </a>
               </h5>
@@ -1123,7 +1123,7 @@ export const blogs = [
             </li>
             Along with these you can create campaigns and automations for cold
             emailing. All this available in the form of chrome extension as well
-            you <a href="https://hunter.io/chrome">find</a> here.
+            you <a href="https://hunter.io/chrome" target="_blank">find</a> here.
           </ul>
         </p>
       </section>
@@ -1131,7 +1131,7 @@ export const blogs = [
       <br/>
       <section id="agile-crm">
         <h2>
-          <a href="https://www.agilecrm.com">Agile CRM</a> (Free plan available)
+          <a href="https://www.agilecrm.com" target="_blank">Agile CRM</a> (Free plan available)
         </h2>
 
         <p>
@@ -1168,20 +1168,20 @@ export const blogs = [
           and manage all Leads, Tasks and Deals, Search Contacts, and most
           widely used Email Templates for cold emailing & Tracking. You can
           checkout the extension 
-          <a href="https://www.agilecrm.com/chrome-extension">here</a>.
+          <a href="https://www.agilecrm.com/chrome-extension" target="_blank">here</a>.
         </p>
       </section>
       <br/>
       <br/>
       <section id="discover">
         <h2>
-          <a href="https://discoverorg.com">Discover Org</a> (Trial available,
+          <a href="https://discoverorg.com" target="_blank">Discover Org</a> (Trial available,
           Pricing not disclosed)
         </h2>
         <p>
           DiscoverOrg is one more platform where you can find B2B database. It
           helps you with driving sales efficiently and effectively, increase
-          leads and pipleline, manage clean and enriching data, boost sales and
+          leads and connections, manage clean and enriching data, boost sales and
           teams productivity. It is only a three step process.
           <ul>
             <li>
@@ -1210,9 +1210,9 @@ export const blogs = [
           go providing Instant Access to the Most Accurate Prospect Intelligence
           While Browsing the Web. It works on (1) a LinkedIn or Twitter profile,
           (2) a company website, (3) Salesforce.com accounts and contact
-          records, or (4) any webpage with a company or contact name. Checkit
+          records, or (4) any webpage with a company or contact name. Check it
           out 
-          <a href="https://chromewebstore.google.com/detail/discoverorg-sales-intelli/jdanmmkadklcdnmmhodecjodjljkekja?pli=1">
+          <a target="_blank" href="https://chromewebstore.google.com/detail/discoverorg-sales-intelli/jdanmmkadklcdnmmhodecjodjljkekja?pli=1">
             here
           </a>
         </p>
@@ -1221,14 +1221,14 @@ export const blogs = [
       <br/>
       <section id="yesware">
         <h2>
-          <a href="https://www.yesware.com">Yesware by Vendasta</a> (Free plan
+          <a href="https://www.yesware.com" target="_blank">Yesware by Vendasta</a> (Free plan
           available)
         </h2>
         <p>
-          Yesware is a go to tool for email campaining, automation and tracking.
+          Yesware is a go to tool for email campaigning, automation and tracking.
           The benefit of yesware is that it works in your Gmail, Outlook inbox
-          only rather then having any other external interface or interation
-          streamling your processes. Know which emails are working. Know when
+          only rather then having any other external interface or interaction
+          streamlining your processes. Know which emails are working. Know when
           leads are interested. Know how much follow up to do. Yesware offers a
           robust set of tools for your sales team to track email outreach
           activity, rapidly test what does and doesn't work, and share it all
@@ -1257,14 +1257,14 @@ export const blogs = [
             <li>Email Templates and Meeting Scheduler</li>
           </ul>
           Check out all of the tools 
-          <a href="https://www.yesware.com/feature">here</a> .
+          <a href="https://www.yesware.com/feature" target="_blank">here</a> .
         </p>
       </section>
       <br/>
       <br/>
       <section id="apollo-io">
         <h2>
-          <a href="https://www.apollo.io">Apollo.io</a> (Free plan available)
+          <a href="https://www.apollo.io" target="_blank">Apollo.io</a> (Free plan available)
         </h2>
         <p>
           Apollo.io has a B2B database fueled with the most accurate data on
@@ -1296,7 +1296,7 @@ export const blogs = [
             <li>Analytics: See what's working & where to improve</li>
             <li>Coaching: Give your team actionable feedbacks</li>
           </ul>
-          <h5>Stramline Operations</h5>
+          <h5>Streamline Operations</h5>
           <ul>
             <li>Workflow engine: Automate tasks and move faster on leads</li>
             <li>Enrich & Cleanse: Automatically sync and enrich your CRM.</li>
@@ -1304,7 +1304,7 @@ export const blogs = [
           According to Apollo a million users have joined Apollo.io last year
           and is the fastest growing and most loved sales technology. You can do
           all these along with there extension as well. Find it 
-          <a href="https://chromewebstore.google.com/detail/apolloio-free-b2b-phone-n/alhgpfoeiimagjlnfekdhkjlkiomcapa?pli=1">
+          <a target="_blank" href="https://chromewebstore.google.com/detail/apolloio-free-b2b-phone-n/alhgpfoeiimagjlnfekdhkjlkiomcapa?pli=1">
             here
           </a>
           .
@@ -1314,13 +1314,13 @@ export const blogs = [
       <br/>
       <section id="closely">
         <h2>
-          <a href="https://closelyhq.com">Closely</a> (Paid)
+          <a href="https://closelyhq.com" target="_blank">Closely</a> (Paid)
         </h2>
         <p>
           Next on the list we have Closely. If your main focus is on Linkedin
           Closely would be your way to go. Closely provides Multichannel
           automation campaigns which can be really helpful for simplifying and
-          streamlining your intercations. Closely helps by saving about 40 hours
+          streamlining your interactions. Closely helps by saving about 40 hours
           , 7x times cheaper, and a decrease of 50% from prospecting to demo.
           Closely provides:
           <ul>
@@ -1359,7 +1359,7 @@ export const blogs = [
               bulk.
             </p>
             Try out all the features along with the Closely extension as well 
-            <a href="https://chromewebstore.google.com/detail/closely-email-finder-li-d/gdhhcapaofinjmlambmbfhkicbpmidbn">
+            <a target="_blank" href="https://chromewebstore.google.com/detail/closely-email-finder-li-d/gdhhcapaofinjmlambmbfhkicbpmidbn">
               here
             </a>
             .
@@ -1370,7 +1370,7 @@ export const blogs = [
       <br/>
       <section id="salesql">
         <h2>
-          <a href="https://salesql.com">SalesQL</a> (Free plan available)
+          <a href="https://salesql.com" target="_blank">SalesQL</a> (Free plan available)
         </h2>
         <p>
           SalesQL is another platform that provides tools and extension that are
@@ -1386,7 +1386,7 @@ export const blogs = [
       <br/>
       <section id="crystal">
         <h2>
-          <a href="https://www.crystalknows.com/">Crystal</a> (Free plan
+          <a href="https://www.crystalknows.com/" target="_blank">Crystal</a> (Free plan
           available)
         </h2>
         <p>
@@ -1417,7 +1417,7 @@ export const blogs = [
             </li>
           </ul>
           Check out the extension 
-          <a href="https://chromewebstore.google.com/detail/crystal/nmaonghoefpmlfgaknnboiekjhfpmajh?hl=en">
+          <a target="_blank" href="https://chromewebstore.google.com/detail/crystal/nmaonghoefpmlfgaknnboiekjhfpmajh?hl=en">
             here
           </a>
           .
@@ -1428,8 +1428,8 @@ export const blogs = [
       <section id="linkout">
         <h2>
           <a
-            href="https://chromewebstore.google.com
-          /detail/linkout/ecdkbgmolfbemfanejfloiihpppchlep"
+          target="_blank"
+            href="https://chromewebstore.google.com/detail/linkout/ecdkbgmolfbemfanejfloiihpppchlep?pli=1"
           >
             LinkOut
           </a>
@@ -1443,8 +1443,8 @@ export const blogs = [
           significantly increases the likelihood of getting a connect. You can
           checkout the extension 
           <a
-            href="https://chromewebstore.google.com
-          /detail/linkout/ecdkbgmolfbemfanejfloiihpppchlep"
+          target="_blank"
+            href="https://chromewebstore.google.com/detail/linkout/ecdkbgmolfbemfanejfloiihpppchlep?pli=1"
           >
             here
           </a>
