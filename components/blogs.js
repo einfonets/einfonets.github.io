@@ -1475,6 +1475,232 @@ export const blogs = [
     `,
     },
   },
+  {
+    id: "681e872e-5dad-4d74-a802-541e167c1650",
+    title: "5 Effective ways to WIN clients on Upwork",
+    written_on: "June 1, 2024",
+    written_by: "Janmey Solanki",
+    blog_cover_img:
+      "https://media.licdn.com/dms/image/D4D12AQHqhy9ik9PMJw/article-cover_image-shrink_720_1280/0/1717002585933?e=1722470400&v=beta&t=Pq34AqWCCvK7MzMc1luG3B3mfG1oBfHZDzvveOE-WlE",
+    read_time: "7",
+    blog_details: {
+      title_img:
+        "https://media.licdn.com/dms/image/D4D12AQHqhy9ik9PMJw/article-cover_image-shrink_720_1280/0/1717002585933?e=1722470400&v=beta&t=Pq34AqWCCvK7MzMc1luG3B3mfG1oBfHZDzvveOE-WlE",
+      hashtags: [
+        "einfonets",
+        "innovate",
+        "elevate",
+        "dominate",
+        "sales",
+        "revenue",
+        "upwork",
+        "winclients",
+        "prospecting",
+      ],
+      page_content: ` <header>
+        <h2 style="font-size: 1.5em; margin-bottom: 15px; margin-top:30px;">5 Effective ways to WIN clients on Upwork</h2>
+        <p style="margin-bottom: 15px;">Today we have brought 5 tested and verified techniques that we use here at einfonets to win over the clients in Upwork. Although we have mentioned upwork here these can be applied to other platforms as well like Freelancer.com, PeoplePerHour etc.</p>
+    </header>
+    <h2>Outline</h2>
+      <ol>
+        <li>
+          <a href="#basics">The Basics</a>
+        </li>
+
+        <li>
+          <a href="#good-profile">A good profile</a>
+        </li>
+
+        <li>
+          <a href="#be-rational">Be rational</a>
+        </li>
+
+        <li>
+          <a href="#feel-special">Make them feel special</a>
+        </li>
+
+        <li>
+          <a href="#certi-badges">Upwork skill Certificates and Badges</a>
+        </li>
+      </ol>
+      <br/>
+      <br/>
+      <section id="basics">
+        <h2>
+          The Basics
+        </h2>
+        <p>
+          First things first before you start making proposals work on your these basic essentials.Consider the following points:
+          <ul style="display:flex;flex-direction:column;gap:24px;">
+            <li>
+              <h5>
+                Ensure all settings are on point
+              </h5>
+              <p>
+                Make sure all the settings for profile are on point, for example there is an option for selecting client size who you serve for which it can be either small scale, medium scale, large enterprise or maybe there is an option to keep your profile public or private, or maybe you can select interests and based on that you will get all the requirements.
+              </p>
+            </li>
+            <li>
+              <h5>
+                Keep Available Badge Always on
+              </h5>
+              <p>
+                Although this cost one connect every day, records show that keeping your availability tag always available helps in attracting more clients although it might be costly on initial stage it might be fruitful later. There is also a option to boost your profile if you want to advertise your profile further more.
+              </p>
+            </li>
+            <li>
+              <h5>
+                <a href="https://hunter.io/domain-search" target="_blank">
+                  Hunter Email Finder
+                </a>
+              </h5>
+              <p>
+                Type a name, get a verified email address. The high match rate
+                will help you get the most from your lists. The Email Finder is
+                all you need to connect with any professional. It puts all our
+                data together — email formats, email addresses found on the web,
+                and verification status — to find reliable contact information
+                in seconds.
+              </p>
+            </li>
+            <li>
+              <h5>
+                Be Positive and Go for it
+              </h5>
+              <p>
+                Sometimes there are jobs that have specific requirements like location must be xx, or must be fluent in xx language etc. Even if you don't meet all the criteria if you are confident that you can complete the job easily go for it and apply for the job even though you don't match all the criteria there are times when you might get the job. So be positive and go forward with the job.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="good-profile">
+        <h2>
+         A Good Profile
+        </h2>
+
+        <p>
+          Next is the descriptive part where you tell all your stories and describe yourself.
+Consider the following points:
+          <ul style="display:flex;flex-direction:column;gap:24px;">
+            <li>
+              <h5> Keep your Title and Bio minimal and on point</h5>
+              <p>
+                Most of the clients spend 20 to 30 seconds on average over a freelancers profile. Considering worst case you have 20 seconds to show client what you are made of so make your bio concise, focus on describing main points like what you do mainly (like a frontend developer, or a sales guy), your experience, any achievement (like you worked at google, or have this many stars in LeetCode or are a geek etc), how you can help them. Keep your tag line catchy and descriptive like Frontend Guy with 5000+ hours of experience.
+              </p>
+            </li>
+            <li>
+              <h5>Personalised Profiled</h5>
+              <p>
+Upwork has recently added option where you can create upto 2 personalised profiled for free. If you think you provide services in multiple domain then this is the best feature for you. For example if you provide frontend services and backend services both then instead of combining description for both the roles you can create two profiles one as a frontend developer and one as a backend developer and add relevant information only for that role. Now while applying for a job if it is a job for frontend you can apply with frontend profile and same for other profiles. This way there is a clearer description for the client to understand what you do without unnecessary information which is out of domain for the client.
+              </p>
+            </li>
+            <li>
+              <h5>A Good Profile Pic</h5>
+              <p>
+                Your profile pic should be such that it shows your face clearly. It is recommended to have a profile pic zoomed onto your face and no one else is present in picture completely focusing on you and nothing else.
+              </p>
+            </li>
+            <li>
+              <h5>Complete your profile</h5>
+              <p>
+                According to the analysis, freelancer who have completed there profile 100% have a higher chance of acceptance and are recommended first by the upwork algorithm. So its recommended to have your profile 100% completed. As upwork has added a new feature to add profile highlights while applying for a job where you can mention upto 4 things that can be either a completed job, or a specific work or a certificate that you might what the client to be recognised. So adding portfolios, attaching works, adding certificates and achievements might help you while applying for a bid.
+              </p>
+            </li>
+          </ul>
+         
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="be-rational">
+        <h2>
+          Be rational
+        </h2>
+        <p>
+          As the title suggests if you have newly started on upwork then it would be better to be a little bit on the lower end on the pricing and pick jobs even if they are on small scale. Building JSS and reputation is a key to win over clients on upwork which will not happen overnight but slowly and steadily you can reach on to point where you can then ask for the prices that justifies your record. Be consistent and there are also chances that you might also win specific Badges from upwork like Rising Talent etc which you can mention as achievements while applying for a job that will help you win over more clients.
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="feel-special">
+        <h2>
+          Make them feel special
+        </h2>
+        <p>
+          As the name suggests there are various ways you can personalise your cover letter while applying for job that might astonish client. This has to be the most important section for your proposal to be successful.
+Here are some strategies:
+          <ul style="display:flex;flex-direction:column;gap:24px;">
+          <li>
+          <h5>Apply as quickly as you can</h5>
+          <p>Applying to a job as quickly as you can after it has published also has some benefits like you will be in the top of the list and client might also think that you have given more priority to their requirement because of the quick response. If a job is more than a day old then it is suggested to not go forward with that job as it is too late to be in the list unless you highly boost your bid which does come with a hefty costs and if the client has already invited anyone then you have near to zero chances of getting that job.</p>
+          </li>
+          <li>
+          <h5>Boost bid</h5>
+          <p>If you are certain about a job that its a perfect match for you then you can also boost your bid with some extra connects which will make sure that your profile stays on the top four which increases the chances of getting hired. If you get out bidded then you will get the extra credits used back as well so there is no harm in using a few more connects if a job is perfect for you.</p>
+          </li>
+          <li>
+          <h5>Don't be a bot</h5>
+          <p>Many times people just copy and paste same text in every job in am attempt to fulfil the earlier point but these just doesn't work most of the times. Understand the requirements first and have a basic template and modify it according to the requirements described in the job these will also make client think that you have fully read and understood the requirements instead of blinding applying for the bid. There are also times where clients mention a word at the end in their job like OREGO etc that they ask freelancers to add in there description at the top so that they can know if the applier has fully read the job so to avoid such cases where you forgot to mention the word it is recommended to at least have a brief glimpse of the entire requirement and then apply.</p>
+          </li>
+          <li>
+          <h5>Know about client</h5>
+          <p>Its best if you scavenge a little bit of details about the client before applying. You can get a little bit of details such as their name from the feedbacks section of the clients where if a freelancer has previously reviewed the client and mentioned some information about the client like his name or where the client is from. You can then use this information like mention the name of the client initially in your cover letter, which will make client think that you have dug deeper about knowing all the details of the job and the client and are dedicating yourself very much for these job increasing your chances for getting hired.</p>
+          </li>
+
+          </ul>
+        </p>
+      </section>
+      <br/>
+      <br/>
+      <section id="certi-badges">
+        <h2>
+          Upwork Skill certificates and Badges
+        </h2>
+        <p>
+          As I mentioned earlier about the Rising Talent Badge, there are certificates and Badges from upwork that might help you strengthen your profile. Having these Badges and certificates can be used as achievements while applying for a job which might increase your value. Although these Badges and certificates are invite only and are in control of upwork. If your are consistent on upwork there are chances that you might also get one of them. Freelancers with Badges and certificates are recommended first then other freelancers. There are various Badges and Certificates in various categories your can read more about them in the given links to upwork resources.
+<p>
+          Read more about Badges
+          <a
+            target="_blank"
+            href="https://support.upwork.com/hc/en-us/articles/360049702614-Upwork-s-Talent-Badges"
+          >
+            here
+          </a>
+        </p>
+        <p>
+          Read more about Certificates
+          <a
+            target="_blank"
+            href="https://support.upwork.com/hc/en-us/articles/360052581373-Upwork-Skill-Certifications"
+          >
+            here
+          </a>
+        </p>
+        </p>
+      </section>
+      
+      <br/>
+      <br/>
+      <h4>
+        So these are the top 5 most effective ways that we use to win over clients almost on all platforms. Tell us in the comments section, which method you think is the best or you also use. Also mention any other methods if you use particularly and enlighten others.
+      </h4>
+      <br/>
+      <br/>
+        <h2 style="font-size: 1.2em; margin-bottom: 15px;">
+        For professional assistance on how to increase your sales and ROI do consider connecting with <a href="https://www.einfonets.com">einfonets</a>. <a href="https://www.einfonets.com">einfonets</a> specializes in helping customers increase their sales and revenue with modern methodologies and techniques.
+        </h2>
+      <br/>
+      <br/>
+    <footer style="text-align: center; background-color: #f4f4f4; padding: 20px;">
+        <p>For more information about einfonets and our modern ways to increase sales and revenue, visit <a href="https://www.einfonets.com">www.einfonets.com</a></p>
+        <p>Contact us: <a href="mailto:info@einfonets.com">info@einfonets.com</a> | +91 7016547685</p>
+    </footer>
+    `,
+    },
+  },
 ];
 export const sortedBlogs = [...blogs].sort((a, b) => {
   const dateA = new Date(a.written_on);

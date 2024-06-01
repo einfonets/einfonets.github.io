@@ -43,6 +43,7 @@ class BlogGrid extends Component {
                               minHeight: 300,
                               maxHeight: 300,
                               objectFit: "cover",
+                              width: "100%",
                             }}
                             src={blog.blog_cover_img}
                             alt="image"
