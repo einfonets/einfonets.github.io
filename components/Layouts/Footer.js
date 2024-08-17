@@ -17,13 +17,11 @@ class Footer extends Component {
                   </a>
                 </div>
                 <p>
-                  Secure IT Solutions for a more secure environment. We are a
-                  Digital and IT based organization that provides a wide variety
-                  of services, from site creation to technology advice. Our
-                  staff is made up of seasoned professionals with in-depth
-                  knowledge of the subject and significant skill for the
-                  business. We make sure that our services are delivered on
-                  schedule and that we demonstrate outcomes with our deeds.
+                  Your success story begins with us. Contact us today to explore
+                  how our comprehensive services can elevate your business to
+                  new heights. If you want to avail the advantage of emerging
+                  technologies and evolving mobile platforms, einfonets can be
+                  your one-stop destination.
                 </p>
               </div>
             </div>
