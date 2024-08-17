@@ -150,6 +150,12 @@ class Footer extends Component {
                 <iframe
                   width="150"
                   height="150"
+                  src="https://shareables.clutch.co/share/badges/2125539/126304?utm_source=clutch_top_company_badge&utm_medium=image_embed"
+                  title="Top Clutch Quixy Development Ahmedabad 2024"
+                ></iframe>
+                <iframe
+                  width="150"
+                  height="150"
                   src="https://shareables.clutch.co/share/badges/2125539/40711?utm_source=clutch_top_company_badge&utm_medium=image_embed"
                   title="Top Clutch Genexus Development Ahmedabad 2024"
                 ></iframe>
