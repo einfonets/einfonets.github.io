@@ -24,7 +24,7 @@ class FunFacts extends Component {
                             <div className="single-funfacts funfact-style-two">
                                 <i className='bx bx-smile'></i>
                                 <h3>
-                                    30
+                                    50
                                     <span className="sign-icon">+</span>
                                 </h3>
                                 <p>Happy Clients</p>
@@ -50,7 +50,7 @@ class FunFacts extends Component {
                             <div className="single-funfacts funfact-style-two">
                                 <i className='bx bxs-award'></i>
                                 <h3>
-                                    50
+                                    100
                                     <span className="sign-icon">+</span>
                                 </h3>
                                 <p>Completed Projects</p>
