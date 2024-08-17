@@ -8,7 +8,7 @@ class FunFactsTwo extends Component {
                     <div className="col-lg-3 col-6 col-sm-6">
                         <div className="single-funfacts">
                             <h3>
-                                2
+                                3
                                 <span className="sign-icon">+</span>
                             </h3>
                             <p>Years of Success</p>

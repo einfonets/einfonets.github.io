@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import FunFactsTwo from "./FunFactsTwo";
+import FunFacts from "./FunFacts";
 import dynamic from "next/dynamic";
 const ModalVideo = dynamic(() => import("react-modal-video"), {
   ssr: false,
@@ -60,7 +60,7 @@ class WhyChooseUsTwo extends Component {
             <br />
 
             {/* Fun Facts Style Two */}
-            <FunFactsTwo />
+            <FunFacts />
 
             {/* <div className="contact-cta-box">
                             <h3>Have any questions about us?</h3>
