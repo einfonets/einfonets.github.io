@@ -113,8 +113,13 @@ class Navbar extends Component {
                                             </ul> */}
 
                     <li className="nav-item">
-                      <Link href="#" activeClassName="active">
-                        <a className="nav-link">Careers</a>
+                      <Link
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSd_BQVnILiFfWChrafoydvbVwxHwmMFPf8oj5w2hMAQSyFeyg/viewform?usp=sf_link"
+                        activeClassName="active"
+                      >
+                        <a target="_blank" className="nav-link">
+                          Careers
+                        </a>
                       </Link>
                     </li>
 

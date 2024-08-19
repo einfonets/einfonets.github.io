@@ -52,8 +52,8 @@ class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>Careers</a>
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSd_BQVnILiFfWChrafoydvbVwxHwmMFPf8oj5w2hMAQSyFeyg/viewform?usp=sf_link">
+                      <a target="_blank">Careers</a>
                     </Link>
                   </li>
                 </ul>
