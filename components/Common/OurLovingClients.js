@@ -7,10 +7,13 @@ const Clients = [
     logo: "https://www.upwork.com/att/download/portfolio/persons/uid/1697294443237502976/profile/projects/files/62588a42-92df-4299-ae4b-d861f8a1b416",
   },
   {
-    name: "on2cook",
-    logo: "https://mms.businesswire.com/media/20221109005461/en/1630776/5/on2cooklogo.jpg",
+    name: "Lightning Docs",
+    logo: "/images/marketing-agency/lightning-docs.jpg",
   },
-
+  {
+    name: "Lightning Apps",
+    logo: "/images/marketing-agency/lightning-apps.jpg",
+  },
   {
     name: "einfochips",
     logo: "https://s3.amazonaws.com/info-mongodb-com/_com_assets/media/einfochips_logo.png",
@@ -26,7 +29,7 @@ const Clients = [
   },
   {
     name: "OCR",
-    logo: "https://ocr.alkurn.co.in/static/media/logo.50463c0a.png",
+    logo: "/images/marketing-agency/ocr-image.jpg",
   },
   {
     name: "Safmical",
